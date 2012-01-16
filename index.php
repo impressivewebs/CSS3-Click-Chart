@@ -133,7 +133,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.1.min.js"%3E%3C/script%3E'))</script>
 
-<script src="js/general.js"></script>
+<script src="js/general.js?ver=1.1"></script>
 
 <script>
 var _gaq = [['_setAccount', 'UA-1965499-10'], ['_trackPageview']];

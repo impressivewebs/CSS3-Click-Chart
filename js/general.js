@@ -80,7 +80,6 @@ var s = null,
 			}
 
 			s.ed.append('<a href="#" id="autoSize" class="toggle-autosize on">[ disable auto-size ]</a>');
-
 			$('<a href="#" id="codeSelect" class="codeselect">[ select code ]</a>').insertAfter(s.edh2);
 
 			$(window).bind('hashchange', function () {
@@ -105,8 +104,7 @@ var s = null,
 				s.featureTitle.load(s.path + s.featureURL + '/title.php'),
 				s.description.load(s.path + s.featureURL + '/description.php'),
 				$.get(s.path + s.featureURL + '/code.php', function(data) {
-				
-				console.log(this.xhr);
+
 				if (s.code.get(0).tagName === "PRE") {
 					data = data.replace(/\r/g, '<br>');
 					data = data.replace(/\t/g, '&nbsp;&nbsp;&nbsp;&nbsp;');
@@ -148,9 +146,7 @@ var s = null,
 			s = this.settings;
 
 			$('.featureslist a').removeClass('selected');
-
 			$('#commonlist a[href$="' + location.hash.replace('#', '') + '"]').addClass('selected');
-
 			$('#edgelist a[href$="' + location.hash.replace('#', '') + '"]').addClass('selected');
 
 		},
@@ -164,7 +160,6 @@ var s = null,
 				s.hiddenText.html(s.code.html());
 				s.hiddenText.addClass('hiddentext');
 				$('body').append(s.hiddenText);
-
 				s.codeH = s.hiddenText.height();
 
 				if (s.codeH > 400) {
@@ -180,6 +175,7 @@ var s = null,
 				}, s.speed, function () {
 					s.code.css('overflow', 'visible');
 				});
+
 			});
 
 			s.code.bind('mouseout blur', function () {
@@ -228,7 +224,6 @@ var s = null,
 			s.codeSelect.bind('click', function () {
 			
 				s.code.select();
-				
 				return false;
 
 			});
