@@ -133,7 +133,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 	<a href="https://github.com/impressivewebs/CSS3-Click-Chart"><img class="github-ribbon" src="https://a248.e.akamai.net/assets.github.com/img/4c7dc970b89fd04b81c8e221ba88ff99a06c6b61/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub"></a>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.6.2.min.js"%3E%3C/script%3E'))</script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.1.min.js"%3E%3C/script%3E'))</script>
 
 <script src="js/general.js"></script>
 
