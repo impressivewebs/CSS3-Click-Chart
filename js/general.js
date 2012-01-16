@@ -185,7 +185,7 @@ var s = null,
 				s.code.stop().animate({
 					minHeight: '110px'
 				}, s.speed, function () {
-					// callback
+					s.code.css('overflow', 'auto');
 				});
 			});
 

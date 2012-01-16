@@ -266,6 +266,10 @@ header {
 	clear: both;
 }
 
+pre.code {
+	overflow: hidden;
+}
+
 .js .code {
 	-moz-resize: none;
 	resize: none;
