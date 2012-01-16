@@ -24,9 +24,8 @@ $proptitlestr = str_replace("feature-", "", $prop);
 	<!-- Remove these two references once the files are in root with these file names -->
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	
-	<link rel="stylesheet" href="css/normalize.css?v=1.0">
-	<link rel="stylesheet" href="css/styles.css?v=1.0">
+
+	<link rel="stylesheet" href="css/styles.css?v=1.2">
 
 	<script src="js/modernizr-2.0.6.js"></script>
 
