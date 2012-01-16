@@ -1,0 +1,1 @@
+Allows embedding of custom (appropriately licensed) fonts using the <code>@font-face</code> at-rule.

@@ -1,0 +1,1 @@
+Allows you to position an element vertically and/or horizontally, similar to CSS positioning, using a function as a value for the <code>transform</code> property.

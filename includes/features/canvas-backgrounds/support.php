@@ -1,0 +1,1 @@
+Chrome 4+, Safari 4+

@@ -1,0 +1,1 @@
+Similar to the obsolete <code>word-wrap</code>, these properties allow you to define how to handle line breaking.

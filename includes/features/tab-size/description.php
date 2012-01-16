@@ -1,0 +1,1 @@
+Allows you to change the number of characters making up a tab. Value can be an integer (representing number of spaces) or a length value.

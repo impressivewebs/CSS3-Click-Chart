@@ -1,0 +1,1 @@
+<p class="result-borderimages">Resize this box using the bottom-right handle and the image on the border will stay fluid.</p>

@@ -1,0 +1,1 @@
+<a href="https://developer.mozilla.org/en/CSS/color_value#currentColor_Keyword">currentColor Keyword on MDN</a><br>

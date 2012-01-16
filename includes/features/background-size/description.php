@@ -1,0 +1,1 @@
+Lets you define the size of a background image using units or keywords.

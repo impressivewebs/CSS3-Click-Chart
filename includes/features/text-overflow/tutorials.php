@@ -1,0 +1,1 @@
+<a href="https://developer.mozilla.org/En/CSS/Text-overflow">Text Overflow on MDN</a><br>

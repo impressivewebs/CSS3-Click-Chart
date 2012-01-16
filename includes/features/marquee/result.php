@@ -1,0 +1,1 @@
+<p class="result-text">N/A</p>

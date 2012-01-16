@@ -1,0 +1,1 @@
+Defines how far the background of the element should visibly extend (i.e. where it's "clipped").

@@ -1,0 +1,1 @@
+Allows content to be split into one or more "pages", giving you control over page breaks, page size, orientation, page margins, and orphans and widows.

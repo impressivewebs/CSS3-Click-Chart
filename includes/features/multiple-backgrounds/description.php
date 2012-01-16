@@ -1,0 +1,1 @@
+Allows multiple background images to be placed on a single element.

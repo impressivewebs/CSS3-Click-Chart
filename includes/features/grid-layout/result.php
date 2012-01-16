@@ -1,0 +1,1 @@
+<p class="result-text">For a live demonstration of CSS3's grid layout feature, <a href="http://ie.microsoft.com/testdrive/HTML5/GridSystem/Default.html">visit this link</a> in a supporting browser.</p>

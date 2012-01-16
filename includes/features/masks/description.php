@@ -1,0 +1,1 @@
+Allows you to define an alpha mask to overlay content to knock out portions of the content, thus allowing the clipping of content with complex shapes.

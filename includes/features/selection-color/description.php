@@ -1,0 +1,1 @@
+Using a pseudo-element, allows you to change the text color or background color on selected text.

@@ -1,0 +1,1 @@
+By means of changes to property values, allows you to create simple two-step transitions, or animations, over a specified duration on elements in response to state changes.

@@ -1,0 +1,1 @@
+The filters module describes a number of different features that allow you to add Photoshop-like effects to elements using pure CSS. Features include hue, grayscale, sepia, blur, invert, saturate, and more.

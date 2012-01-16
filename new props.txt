@@ -1,0 +1,53 @@
+Object fit/position:
+http://dev.opera.com/articles/view/css3-object-fit-object-position/
+
+CSS calc():
+http://hacks.mozilla.org/2010/06/css3-calc/
+
+Grid Layout:
+http://coding.smashingmagazine.com/2011/12/15/six-css-layout-features-to-look-forward-to/
+
+Exclusions:
+http://dev.w3.org/csswg/css3-exclusions/
+
+Grid Layout:
+http://dev.w3.org/csswg/css3-grid-align/
+
+Flex Box:
+http://dev.w3.org/csswg/css3-flexbox/
+
+Matrix:
+http://www.useragentman.com/blog/2011/01/07/css3-matrix-transform-for-the-mathematically-challenged/
+
+Canvas Backgrounds:
+http://www.webkit.org/blog/176/css-canvas-drawing/
+
+Masks:
+http://www.webkit.org/blog/181/css-masks/
+
+Namespace:
+http://www.w3.org/TR/css3-namespace/
+
+Template Layout:
+http://www.w3.org/TR/css3-layout/
+
+Marquee:
+http://www.w3.org/TR/css3-marquee/
+
+Object Model (CSSOM):
+http://www.w3.org/TR/cssom/
+
+Box Decoration Break:
+http://www.w3.org/TR/css3-background/#the-box-decoration-break
+
+CSS3 Speech:
+http://www.w3.org/TR/css3-speech/
+
+Word Spacing:
+http://www.w3.org/TR/css3-text/#word-spacing
+
+Conditional Rules:
+http://www.w3.org/TR/css3-conditional/
+
+Device Adaptation:
+http://www.w3.org/TR/css-device-adapt/

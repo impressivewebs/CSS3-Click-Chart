@@ -1,0 +1,1 @@
+Defines how to signal to the user that text is overflowing its parent. This can be done using an ellipses or custom string.

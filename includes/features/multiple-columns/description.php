@@ -1,0 +1,1 @@
+Allows the text in an element to be divided into colums, similar to newspaper layouts.

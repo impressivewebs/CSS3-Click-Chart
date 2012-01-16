@@ -1,0 +1,1 @@
+By means of vertical and horizontal offsets, allows you to define where a transformation should originate.

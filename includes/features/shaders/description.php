@@ -1,0 +1,1 @@
+As a complement to filters, animations, and transitions, this module describes how to create "programs" that provide special effects such as distortion, blur, and twirl.

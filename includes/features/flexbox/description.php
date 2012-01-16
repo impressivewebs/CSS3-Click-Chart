@@ -1,0 +1,1 @@
+Allows you to define how to distribute child elements vertically or horizontally, while also allowing you to define fluid dimensions.

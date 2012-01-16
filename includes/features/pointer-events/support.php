@@ -1,0 +1,1 @@
+<p>Firefox 3.6+, Chrome 4+, Safari 4+</p>

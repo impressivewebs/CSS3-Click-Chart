@@ -1,0 +1,1 @@
+<p class="result-transition">Hover over this element and it will gradually change background color.</p>

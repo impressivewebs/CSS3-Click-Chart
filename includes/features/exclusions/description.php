@@ -1,0 +1,1 @@
+As an extension of the <code>float</code> property, exclusions (a.k.a. "positioned floats") allow you to define arbitrary areas that inline content can flow around.

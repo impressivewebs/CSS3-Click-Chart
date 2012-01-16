@@ -1,0 +1,1 @@
+<a href="http://msdn.microsoft.com/en-gb/library/hh673533.aspx">Grid alignment on MSDN</a><br>

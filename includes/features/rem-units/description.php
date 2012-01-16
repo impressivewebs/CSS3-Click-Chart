@@ -1,0 +1,1 @@
+Allows you to define a root em unit value on the <code>html</code> element, then use values on subsequent elements that are relative to the specified root unit.

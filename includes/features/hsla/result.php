@@ -1,0 +1,1 @@
+<p class="result-hsla">The background color of this paragraph is defined using an HSLA setting of <code>hsla(10, 100%, 50%, 0.2)</code></p>

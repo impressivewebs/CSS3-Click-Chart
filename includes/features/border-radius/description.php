@@ -1,0 +1,1 @@
+Applies only to <a href="http://reference.sitepoint.com/css/replacedelements">replaced elements</a>. Defines the scaling and alignment of a replaced element within its box.

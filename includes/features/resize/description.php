@@ -1,0 +1,1 @@
+ Allows an element to be resized by the user vertically and/or horizontally using a bottom-right handle.

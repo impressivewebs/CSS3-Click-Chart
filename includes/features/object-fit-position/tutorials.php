@@ -1,0 +1,1 @@
+<a href="http://dev.opera.com/articles/view/css3-object-fit-object-position/">The CSS3 object-fit and object-position properties</a><br>

@@ -1,0 +1,1 @@
+<a href="http://www.useragentman.com/blog/2011/08/24/how-to-simulate-css3-box-shadow-in-ie7-8-without-javascript/">CSS3 box-shadow in IE6-8 Without JavaScript</a><br>

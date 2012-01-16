@@ -1,0 +1,1 @@
+<p class="result-boxshadow">This box has a drop shadow.</p>

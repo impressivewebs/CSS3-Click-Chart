@@ -1,0 +1,1 @@
+This module contains a number of features to describe layouts at a high level, allowing elements to have complex shapes and for the visual layout order to differ from the source order.

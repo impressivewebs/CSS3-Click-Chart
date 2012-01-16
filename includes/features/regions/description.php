@@ -1,0 +1,1 @@
+Allows you to flow content across multiple elements, or regions.

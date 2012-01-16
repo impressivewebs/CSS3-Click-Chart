@@ -1,0 +1,1 @@
+Allows you to change the way the browser calculates the width of an element, that is, whether or not to include padding, borders, and margins, in the width or height calculation.

@@ -1,0 +1,1 @@
+Similar to <code>background-clip</code>, defines how far the background of the element should visibly extend (i.e. where its extremities originate).

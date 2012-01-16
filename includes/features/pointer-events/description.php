@@ -1,0 +1,1 @@
+Allows control over the circumstances under which graphic elements (currently only SVG) can be the target of mouse events.

@@ -1,0 +1,1 @@
+<a href="http://dev.w3.org/csswg/css3-ui/#resize">Resize on W3C</a>

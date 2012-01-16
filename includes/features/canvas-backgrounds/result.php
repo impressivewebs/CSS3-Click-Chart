@@ -1,0 +1,1 @@
+<p class="result-text">For a live demonstration of a canvas background, <a href="http://trac.webkit.org/browser/trunk/LayoutTests/fast/canvas/canvas-bg.html?format=raw">visit this link</a> in a supporting browser.</p>

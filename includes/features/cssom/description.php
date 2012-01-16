@@ -1,0 +1,1 @@
+A Document Object Model for CSS, providing an API for access to parse Media Queries, CSS selectors, and stylesheets.

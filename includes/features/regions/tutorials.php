@@ -1,0 +1,1 @@
+<a href="http://msdn.microsoft.com/en-gb/library/hh673537.aspx">Regions on MSDN</a><br>

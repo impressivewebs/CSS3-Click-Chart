@@ -1,0 +1,1 @@
+Allows you to use a function in place of a length value to calculate the size or shape of an element instead of defining it explicitly.

@@ -1,0 +1,1 @@
+Serves as an alternative to positioning and floats, allowing more flexibility and fluidity in creating newspaper-like layouts.

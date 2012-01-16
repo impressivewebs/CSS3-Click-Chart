@@ -1,0 +1,1 @@
+Alternate values for the <code>background-repeat</code> property. Each repeats the background as often as it will fit without being clipped. "space" repeats to fit, while "round" scales it.

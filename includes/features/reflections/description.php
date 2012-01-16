@@ -1,0 +1,1 @@
+Allows elements to be reflected without requiring images or JavaScript.
