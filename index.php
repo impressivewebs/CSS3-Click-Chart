@@ -10,8 +10,7 @@ echo $qs;
 $proptitlestr = str_replace("feature-", "", $prop);
 ?><!doctype html>
 
-<!--[if lt IE 7 ]><html lang="en" class="no-js ie6"><![endif]-->
-<!--[if (gt IE 6)|!(IE)]><!--><html lang="en" class="no-js"><!--<![endif]-->
+<html lang="en" class="no-js">
 
 <head>
 
@@ -25,9 +24,9 @@ $proptitlestr = str_replace("feature-", "", $prop);
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-	<link rel="stylesheet" href="css/styles.css?v=1.5.1">
+	<link rel="stylesheet" href="css/styles.css?v=1.5.2">
 
-	<script src="js/modernizr-2.0.6.js"></script>
+	<script src="js/modernizr-2.0.6.min.js"></script>
 
 </head>
 
@@ -37,7 +36,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
 		<div class="header-inside globalwidth">
 
-		<h1><a href="http://www.css3clickchart.com" class="title-link">CSS3 Click Chart</a></h1>
+		<h1><a href="http://css3clickchart.com" class="title-link">CSS3 Click Chart</a></h1>
 
 		<ul class="viewnav">
 			<li class="btncommon"><a href="?view=common" class="selected">common stuff</a></li>

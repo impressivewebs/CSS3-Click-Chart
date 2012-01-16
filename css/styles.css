@@ -473,6 +473,10 @@ a:focus {
 a:link, a:visited {
 	color: #fff;
 	-webkit-transition: color .5s ease;
+	-moz-transition: color .5s ease;
+	-ms-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease;
 }
 
 a:hover {
@@ -560,6 +564,10 @@ header {
 				color: #e2e2e2;
 				opacity: .75;
 				-webkit-transition: opacity .5s ease;
+				-moz-transition: opacity .5s ease;
+				-ms-transition: opacity .5s ease;
+				-o-transition: opacity .5s ease;
+				transition: opacity .5s ease;
 				background: #bb4c1a;
 				background: -moz-linear-gradient(#bb4c1a 0%, #bb4c1a 45%, #ac3600 55%, #ac3600 100%); /* FF 3.6+ */
 				background: -ms-linear-gradient(#bb4c1a 0%, #bb4c1a 45%, #ac3600 55%, #ac3600 100%); /* IE10 */
@@ -567,6 +575,8 @@ header {
 				background: -webkit-linear-gradient(#bb4c1a 0%, #bb4c1a 45%, #ac3600 55%, #ac3600 100%); /* Safari 5.1+, Chrome 10+ */
 				background: -o-linear-gradient(#bb4c1a 0%, #bb4c1a 45%, #ac3600 55%, #ac3600 100%); /* Opera 11.10 */
 				background: linear-gradient(#bb4c1a 0%, #bb4c1a 45%, #ac3600 55%, #ac3600 100%); /* the standard */
+				-webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
+				-moz-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
 				box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
 			}
 			
@@ -620,13 +630,19 @@ header {
 		line-height: 28px;
 		padding: 1px 10px;
 		border-radius: 8px;
-		-webkit-transition: background .7s ease;
 		white-space: nowrap;
+		-webkit-transition: background .7s ease;
+		-moz-transition: background .7s ease;
+		-ms-transition: background .7s ease;
+		-o-transition: background .7s ease;
+		transition: background .7s ease;
 	}
 
 	.featureslist a.selected:link, .featureslist a.selected:visited {
 		background: #993102;
 		padding: 1px 10px;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
 		border-radius: 8px;
 		border: solid 1px #973c14;
 	}
@@ -1072,7 +1088,7 @@ pre.code {
 		-moz-border-image: url(../images/bg-borderimage.png) 20 20 20 20 repeat;
 		border-image: url(../images/bg-borderimage.png) 20 20 20 20 repeat;
 	}
-	
+
 	.result-textstroke {
 		font-size: 60px;
 		text-align: center;
@@ -1084,7 +1100,7 @@ pre.code {
 		text-stroke-color: #d78965;
 		text-stroke-width: 3px;
 	}
-	
+
 	.result-mediaqueries {
 		width: 330px;
 		padding: 10px;
@@ -1093,6 +1109,10 @@ pre.code {
 		color: black;
 		text-align: center;
 		-webkit-transition: all .5s ease;
+		-moz-transition: all .5s ease;
+		-ms-transition: all .5s ease;
+		-o-transition: all .5s ease;
+		transition: all .5s ease;
 	}
 	
 	@media (max-width: 1200px) {
@@ -1128,15 +1148,14 @@ pre.code {
 	}
 	
 	.result-radial {
-	
 		width: 400px;
 		height: 80px;
 		margin: 40px auto 0 auto;
 		text-align: center;
 		padding: 40px 0 0 0;
 		color: black;
-		background-image: -moz-radial-gradient(center 45deg, circle closest-corner, #fff 10%, #000 70%);
-		background-image: -webkit-gradient(radial, center center, 10, center center, 90, from(#fff), to(#000)); /* for older webkit */
+		background-image: -moz-radial-gradient(center center, circle closest-corner, #d85e0c 10%, #f39454 70%);
+		background-image: -webkit-gradient(radial, center center, 10, center center, 70, from(#d85e0c), to(#f39454)); /* for older webkit */
 		background-image: -webkit-radial-gradient(center center, circle closest-corner, #d85e0c 10%, #f39454 70%);
 		background-image: -ms-radial-gradient(center center, circle closest-corner, #fff 10%, #000 70%);
 		background-image: radial-gradient(center center, circle closest-corner, #fff 10%, #000 70%);
@@ -1180,10 +1199,10 @@ pre.code {
 		color: black;
 		text-align: center;
 		-webkit-transition: all .5s linear;
-		-moz-transition: all 1s linear;
-		-o-transition: all 1s linear;
-		-ms-transition: all 1s linear;
-		transition: all 1s linear;
+		-moz-transition: all .5s linear;
+		-o-transition: all .5s linear;
+		-ms-transition: all .5s linear;
+		transition: all .5s linear;
 	}
 	
 	.result-transition:hover {
@@ -1406,7 +1425,7 @@ pre.code {
 		margin: 30px auto;
 		text-align: center;
 	}
-	
+
 	.result-hyphens {
 		width: 350px;
 		margin: 30px auto;
@@ -1414,32 +1433,32 @@ pre.code {
 		-ms-hyphens: auto;
 		hyphens: auto;
 	}
-	
+
 	.result-currentcolor {
 		margin: 30px auto;
 		width: 400px;
 		text-align: center;
 		color: lightgreen;
 	}
-	
+
 		.result-currentcolor p {
 			color: white;
 		}
-	
+
 		.result-currentcolor .ccbox {
 			width: 200px;
 			height: 60px;
 			background: currentColor;
 			margin: auto;
 		}
-		
+
 	.result-3dtransform {
 		width: 300px;
 		height: 120px;
 		position: relative;
 		margin: 30px auto;
 	}
-	
+
 		.object {
 			background: transparent;
 			width: 100%;
@@ -1447,8 +1466,14 @@ pre.code {
 			position: absolute;
 			-webkit-perspective: 300;
 			-webkit-transform-style: preserve-3d;
+			-moz-perspective: 300;
+			-moz-transform-style: preserve-3d;
+			-ms-perspective: 300;
+			-ms-transform-style: preserve-3d;
+			perspective: 300;
+			transform-style: preserve-3d;
 		}
-		
+
 			.card {
 				position: absolute;
 				top: 0;
@@ -1457,6 +1482,10 @@ pre.code {
 				bottom: 0;
 				border: solid 1px white;
 				-webkit-transition: -webkit-transform 1s linear;
+				-moz-transition: -moz-transform 1s linear;
+				-ms-transition: -ms-transform 1s linear;
+				-o-transition: -o-transform 1s linear;
+				transition: -webkit-transform 1s linear;
 				text-align: center;
 				font-size: 50px;
 				line-height: 110px;
@@ -1465,6 +1494,9 @@ pre.code {
 			.cfront {
 				background: #993102;
 				-webkit-backface-visibility: hidden;
+				-moz-backface-visibility: hidden;
+				-ms-backface-visibility: hidden;
+				backface-visibility: hidden;
 			}
 			
 			.cback {
@@ -1473,6 +1505,10 @@ pre.code {
 			
 			.flipped {
 				-webkit-transform: rotateY(180deg);
+				-moz-transform: rotateY(180deg);
+				-ms-transform: rotateY(180deg);
+				-o-transform: rotateY(180deg);
+				transform: rotateY(180deg);
 			}
 			
 		.result button {
@@ -1530,6 +1566,11 @@ pre.code {
 	.ext a:link, a:visited {
 		padding-right: 20px;
 		background: transparent url(../images/bg-external.gif) no-repeat right bottom;
+		-webkit-transition: none;
+		-moz-transition: none;
+		-ms-transition: none;
+		-o-transition: none;
+		transition: none;
 	}
 	
 	.ext a:hover, .ext a:active {
@@ -1557,6 +1598,10 @@ h2 {
 	right: 0;
 	opacity: .7;
 	-webkit-transition: opacity .5s linear;
+	-moz-transition: opacity .5s linear;
+	-ms-transition: opacity .5s linear;
+	-o-transition: opacity .5s linear;
+	transition: opacity .5s linear;
 }
 
 .github-ribbon:hover {
