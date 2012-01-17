@@ -22,6 +22,9 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
 	<!-- Remove these two references once the files are in root with these file names -->
 	<link rel="shortcut icon" href="/favicon.ico">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 	<link rel="stylesheet" href="css/styles.css?v=1.5.6">
