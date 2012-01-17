@@ -2,4 +2,4 @@
 No support</p>
 
 <p><strong>Vendor Syntax:</strong><br>
-Chrome 18+(?)</p>
+Chrome 18+</p>

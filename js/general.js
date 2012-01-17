@@ -116,8 +116,16 @@ var s = null,
 				s.result.load(s.path + s.featureURL + '/result.php'),
 				s.support.load(s.path + s.featureURL + '/support.php'),
 				s.info.load(s.path + s.featureURL + '/technical.php'),
-				s.polyfills.load(s.path + s.featureURL + '/polyfills.php'),
-				s.tutorials.load(s.path + s.featureURL + '/tutorials.php')
+				s.polyfills.load(s.path + s.featureURL + '/polyfills.php', function() {
+					if (!s.polyfills.html()) {
+						s.polyfills.html('No sources yet');
+					}
+				}),
+				s.tutorials.load(s.path + s.featureURL + '/tutorials.php', function() {
+					if (!s.tutorials.html()) {
+						s.tutorials.html('No sources yet');
+					}
+				})
 				
 				).done(function(){ 
 				s.body.removeClass('loading');
@@ -173,7 +181,7 @@ var s = null,
 				s.code.stop().animate({
 					minHeight: s.codeH + 'px'
 				}, s.speed, function () {
-					s.code.css('overflow', 'visible');
+					s.code.css('overflow-y', 'visible');
 				});
 
 			});
@@ -182,7 +190,7 @@ var s = null,
 				s.code.stop().animate({
 					minHeight: '110px'
 				}, s.speed, function () {
-					s.code.css('overflow', 'auto');
+					s.code.css('overflow-y', 'auto');
 				});
 			});
 

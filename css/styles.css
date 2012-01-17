@@ -455,11 +455,11 @@ body {
 }
 
 ::selection, textarea::selection {
-	background: #d78965;
+	background-color: #d78965;
 }
 
 ::-moz-selection, textarea::-moz-selection {
-	background: #d78965;
+	background: #983a0f;
 }
 
 a:focus {
@@ -492,6 +492,14 @@ a.title-link:hover {
 	color: #fff;
 }
 
+h1, h2, .viewnav li, .featureslist li, .result-mediaqueries, .result-transition, .demo-left, .demo-right {
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
 h1, h2, h3 {
 	font-family: BevanRegular, serif;
 	color: #d78965;
@@ -515,18 +523,13 @@ p {
 }
 
 header {
-	height: 84px;
 	background: #51220d;
 }
 
-	.header-inside {
-	}
-	
 		h1 {
 			font-family: BevanRegular, serif;
 			color: #d78965;
 			font-size: 60px;
-			margin-right: 140px;
 			line-height: 84px;
 			float: left;
 		}
@@ -535,7 +538,7 @@ header {
 			list-style: none;
 			margin: 20px 0 0 0;
 			padding: 0;
-			float: left;
+			float: right;
 			display: none;
 		}
 
@@ -751,7 +754,7 @@ pre.code {
 	.toggle-autosize {
 		position: absolute;
 		right: 20px;
-		top: 10px;
+		top: 7px;
 		font-size: 15px;
 		text-decoration: none;
 	}
@@ -1108,15 +1111,10 @@ pre.code {
 		background: white;
 		color: black;
 		text-align: center;
-		-webkit-transition: all .5s ease;
-		-moz-transition: all .5s ease;
-		-ms-transition: all .5s ease;
-		-o-transition: all .5s ease;
-		transition: all .5s ease;
 	}
-	
+
 	@media (max-width: 1200px) {
-	
+
 		.result-mediaqueries {
 			background: #d78965;
 		}
@@ -1198,11 +1196,6 @@ pre.code {
 		background: white;
 		color: black;
 		text-align: center;
-		-webkit-transition: all .5s linear;
-		-moz-transition: all .5s linear;
-		-o-transition: all .5s linear;
-		-ms-transition: all .5s linear;
-		transition: all .5s linear;
 	}
 	
 	.result-transition:hover {
@@ -1632,10 +1625,248 @@ footer {
 	}
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1150px) {
 
+	.globalwidth {
+		width: auto;
+	}
+	
+	.viewnav {
+		float: left;
+		padding-left: 30px;
+	}
+	
+	.viewnav li {
+		margin-right: 22px;
+	}
+	
+	.featureslist li.colb {
+		margin-left: 160px;
+	}
+	
+	.featureslist li.colc {
+		margin-left: 410px;
+	}
+	
+	.featureslist li.cold {
+		margin-left: 560px;
+	}
+	
+	.featureslist li.cole {
+		margin-left: 770px;
+	}
+	
+	.featureslist li.colh {
+		margin-left: 134px;
+	}
+	
+	.featureslist li.coli {
+		margin-left: 330px;
+	}
+	
+	.featureslist li.colj {
+		margin-left: 520px;
+	}
+	
+	.featureslist li.colk {
+		margin-left: 674px;
+	}
+	
+	.desc {
+		width: 480px;
+	}
+	
+	.spec {
+		width: auto;
+	}
+
+	.code {
+		width: 98%;
+	}
+	
+	.demo-left {
+		padding-bottom: 25px;
+	}
+
+	.demo-right {
+		width: 400px;
+	}
+	
+	.demo-right h2 {
+		white-space: nowrap;
+	}
+
+	.infoboxes {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	
+	.tutorials {
+		width: 400px;
+	}
+
+}
+
+@media (max-width: 1040px) {
+
+	.viewnav {
+		float: right;
+		padding-left: 0;
+	}
+
+	.featureslist li.colb, .featureslist li.colc, .featureslist li.cold, .featureslist li.cole {
+		width: auto;
+	}
+
+	.featureslist li.colb {
+		margin-left: 145px;
+	}
+	
+	.featureslist li.colc {
+		margin-left: 380px;
+	}
+	
+	.featureslist li.cold {
+		margin-left: 510px;
+	}
+	
+	.featureslist li.cole {
+		margin-left: 704px;
+	}
+	
+	.desc {
+		width: 440px;
+		padding-right: 20px;
+	}
+	
+	.viewnav li {
+		margin-right: 12px;
+	}
+	
+	.demo-right, .tutorials {
+		width: 340px;
+	}
+	
+	h2 {
+		font-size: 26px;
+	}
+	
+}
+
+@media (max-width: 970px) {
+	
+	.featureslist li {
+		font-size: 20px;
+	}
+
+	.viewnav {
+		clear: left;
+		float: none;
+	}
+	
+	header {
+		padding-bottom: 15px;
+	}
+	
+	.featureslist li.colb {
+		margin-left: 220px;
+	}
+
+	.featureslist li.colc {
+		margin-left: 480px;
+	}
+
+	.featureslist li.cold {
+		margin-left: 0;
+		margin-top: 0;
+	}
+	
+	.featureslist li.cole {
+		margin-left: 220px;
+	}
+	
+	.featureslist li.colh {
+		margin-left: 164px;
+	}
+	
+	.featureslist li.coli {
+		margin-left: 420px;
+	}
+	
+	.featureslist li.colj {
+		margin-left: 0;
+		margin-top: 0;
+	}
+	
+	.featureslist li.colk {
+		margin-left: 164px;
+	}
+
+	.demo-left, .demo-right, .tutorials, .polyfills {
+		width: auto;
+		padding: 0;
+		clear: both;
+		float: none;
+	}
+	
+	.demo-right {
+		padding-top: 30px;
+	}
+	
+}
+
+@media (max-width: 691px) {
+
+	html, body {
+		overflow-x: hidden;
+	}
+
+	h1 {
+		font-size: 41px;
+		line-height: 60px;
+		white-space: nowrap;
+	}
+	
+	.viewnav {
+		overflow: hidden;
+	}
+
+	.propsnav {
+		padding-bottom: 30px;
+	}
+
+	.desc {
+		width: auto;
+		padding-right: 20px;
+	}
+	
+	.codeselect, .toggle-autosize {
+		display: none;
+	}
+	
+	.featureslist li.colb,
+	.featureslist li.colc,
+	.featureslist li.cold,
+	.featureslist li.cole,
+	.featureslist li.colf,
+	.featureslist li.colg,
+	.featureslist li.colh,
+	.featureslist li.coli,
+	.featureslist li.colk {
+		margin-left: 0;
+		margin-top: 0;
+	}
+	
 }
 
 @media (max-width: 480px) {
 
+	html, body {
+		overflow-x: hidden;
+	}
+
+	.viewnav {
+		width: 380px;
+	}
+	
 }
