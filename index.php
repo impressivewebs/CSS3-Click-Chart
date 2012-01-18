@@ -27,7 +27,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-	<link rel="stylesheet" href="css/styles.css?v=1.5.6">
+	<link rel="stylesheet" href="css/styles.css?v=1.5.9.2">
 
 	<script src="js/modernizr-2.0.6.min.js"></script>
 
@@ -83,11 +83,10 @@ $proptitlestr = str_replace("feature-", "", $prop);
 	<div class="globalwidth ed">
 	<h2>Example Code</h2>
 
-	<!--[if lte IE 9 ]><pre id="code" class="code"><![endif]-->
-	<!--[if gt IE 9 | !(IE)]><!--><textarea id="code" class="code" readonly><!--<![endif]-->
-	<?php include "includes/features/" . $proptitlestr . "/code.php"; ?>
-	<!--[if gt IE 9 | !(IE)]><!--></textarea><!--<![endif]-->
-	<!--[if lte IE 9 ]></pre><![endif]-->
+	<!--[if gt IE 9 | !(IE)]><!--><textarea id="code" class="code" readonly><?php include "includes/features/" . $proptitlestr . "/code.php"; ?>
+	</textarea><!--<![endif]-->
+	
+	<!--[if lte IE 9 ]><pre id="code" class="code"><?php include "includes/features/" . $proptitlestr . "/code.php"; ?></pre><![endif]-->
 	</div><!-- .ed -->
 
 	<div class="globalwidth">

@@ -1233,7 +1233,7 @@ pre.code {
 		}
 
 	.result-masks {
-		background: url(../images/compass.png);
+		background: url(../images/compass.png) no-repeat center center;
 		-webkit-mask-image: -webkit-linear-gradient(black 0%, black 9%, transparent 10%, transparent 19%, black 20%, black 29%, transparent 30%, transparent 39%, black 40%, black 49%, transparent 50%, transparent 59%, black 60%, black 69%, transparent 70%, transparent 79%, black 80%, black 89%, transparent 90%, transparent 99%, black 100%);
 		width: 128px;
 		height: 128px;
@@ -1859,14 +1859,92 @@ footer {
 	
 }
 
+@media (max-width: 480px) and (orientation: landscape) {
+	
+	h1 {
+		font-size: 41px;
+	}
+
+	.viewnav {
+		width: 380px;
+		height: 40px;
+	}
+	
+	.viewnav li {
+		width: 180px;
+		height: 40px;
+		font-size: 18px;
+	}
+	
+	.viewnav li a {
+		height: 40px;
+	}
+	
+}
+
 @media (max-width: 480px) {
 
 	html, body {
 		overflow-x: hidden;
 	}
+	
+	.globalwidth {
+		padding-left: 14px;
+	}
+	
+	h1 {
+		font-size: 32px;
+	}
 
 	.viewnav {
-		width: 380px;
+		width: 330px;
+		height: 40px;
+	}
+	
+	.viewnav li {
+		width: 140px;
+		height: 31px;
+		font-size: 15px;
+	}
+	
+	.viewnav li a {
+		height: 31px;
+	}
+	
+	.demo-left div, .demo-left p {
+		width: auto;
+	}
+	
+	.demo-right h2 {
+		white-space: normal;
+	}
+	
+	.result-textshadow {
+		line-height: normal;
+	}
+	
+	.demo-left .result-animations {
+		width: 50px;
+		height: 50px;
+	}
+	
+	.demo-left .result-calc {
+		width: -moz-calc(70% - 50px);
+		width: calc(70% - 50px);
+	}
+	
+	.demo-left .result-3dtransform {
+		width: 300px;
+		height: 120px;
+	}
+	
+	.demo-left .object {
+		width: 90%;
+		height: 90%;
+	}
+	
+	.demo-left .result button {
+		width: 140px;
 	}
 	
 }
