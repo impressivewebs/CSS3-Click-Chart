@@ -243,6 +243,6 @@ var s = null,
 $(function () {
 	Css3clickchart.init();
 	Css3clickchart.doToggle();
-	Css3clickchart.fitCode(true);
+	Css3clickchart.fitCode();
 	Css3clickchart.selectCode();
 });
