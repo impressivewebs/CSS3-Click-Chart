@@ -2,4 +2,4 @@
 None.</p>
 
 <p><strong>Vendor Prefix:</strong><br>
-IE10+, Firefox 6+</p>
+IE10+, Firefox 6+, Safari 5.1</p>

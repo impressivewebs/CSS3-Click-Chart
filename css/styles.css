@@ -1422,6 +1422,7 @@ pre.code {
 	.result-hyphens {
 		width: 350px;
 		margin: 30px auto;
+		-webkit-hyphens: auto;
 		-moz-hyphens: auto;
 		-ms-hyphens: auto;
 		hyphens: auto;
