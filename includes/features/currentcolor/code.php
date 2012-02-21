@@ -3,5 +3,5 @@
 }
 
 	.child {
-		border-color: currentColor;
+		background-color: currentColor;
 	}
