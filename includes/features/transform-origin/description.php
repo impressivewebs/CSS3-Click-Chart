@@ -1,1 +1,1 @@
-By means of vertical and horizontal offsets, allows you to define where a transformation should originate.
+Allows you to define horizontal and vertical offsets to change the origin, or anchor point, of the transform.
