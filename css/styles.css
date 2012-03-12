@@ -1557,7 +1557,7 @@ pre.code {
 	line-height: 30px;
 }
 
-	.ext a:link, a:visited {
+	.ext a:link, .ext a:visited {
 		padding-right: 20px;
 		background: transparent url(../images/bg-external.gif) no-repeat right bottom;
 		-webkit-transition: none;
