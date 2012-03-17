@@ -6,6 +6,9 @@ var s = null,
 			path: 'includes/features/',
 			body: $('body'),
 			currView: null,
+			dlHREF: null,
+			btnCommon: $('.btncommon a'),
+			btnEdge: $('.btnedge a'),
 			viewLink: $('.viewnav a'),
 			featureLink: $('.featureslist a'),
 			commonList: $('#commonlist'),
@@ -47,8 +50,8 @@ var s = null,
 
 			this.doDeepLink();
 
-			s.edgeList.slideUp(0);
-			s.commonList.slideDown(0);
+			//s.edgeList.slideUp(0);
+			//s.commonList.slideDown(0);
 
 			s.viewLink.bind('click', function () {
 
@@ -101,6 +104,7 @@ var s = null,
 			s.body.addClass('loading');
 			
 			$.when(
+				_gaq.push(['_trackPageview', '/?prop=' + s.featureURL]),
 				s.featureTitle.load(s.path + s.featureURL + '/title.php'),
 				s.description.load(s.path + s.featureURL + '/description.php'),
 				$.get(s.path + s.featureURL + '/code.php', function(data) {
@@ -156,6 +160,32 @@ var s = null,
 			$('.featureslist a').removeClass('selected');
 			$('#commonlist a[href$="' + location.hash.replace('#', '') + '"]').addClass('selected');
 			$('#edgelist a[href$="' + location.hash.replace('#', '') + '"]').addClass('selected');
+			
+			this.doFindMenu(location.hash.replace('#', ''));
+
+		},
+
+		doFindMenu: function (view) {
+
+			s = this.settings;
+
+			s.dlHREF = $('.propsnav').find('a[href$="' + view + '"]');
+
+			if (s.dlHREF.parent().parent().attr('id') === 'commonlist') {
+
+				s.commonList.slideDown(s.speed);
+				s.edgeList.slideUp(s.speed);
+				s.btnCommon.addClass('selected');
+				s.btnEdge.removeClass('selected');
+
+			} else {
+
+				s.commonList.slideUp(s.speed);
+				s.commonList.slideUp(s.speed);
+				s.btnEdge.addClass('selected');
+				s.btnCommon.removeClass('selected');
+
+			}
 
 		},
 
