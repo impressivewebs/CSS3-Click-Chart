@@ -616,104 +616,135 @@ header {
 	padding-bottom: 60px;
 }
 
-.featureslist {
-	margin: 0;
-	padding: 30px 0 0 0;
-}
-
-.featureslist li {
-	list-style: none;
-	font-family: consolas, monospace;
-	font-size: 20px;
-	width: 192px;
-}
-
-	.featureslist a:link, .featureslist a:visited {
-		text-decoration: none;
-		line-height: 28px;
-		padding: 1px 10px;
-		border-radius: 8px;
-		white-space: nowrap;
-		-webkit-transition: background .7s ease;
-		-moz-transition: background .7s ease;
-		-ms-transition: background .7s ease;
-		-o-transition: background .7s ease;
-		transition: background .7s ease;
+	.featureslist {
+		margin: 0;
+		padding: 30px 0 0 0;
 	}
 
-	.featureslist a.selected:link, .featureslist a.selected:visited {
-		background: #993102;
-		padding: 1px 10px;
-		-moz-border-radius: 8px;
-		-webkit-border-radius: 8px;
-		border-radius: 8px;
-		border: solid 1px #973c14;
+	.featureslist li {
+		list-style: none;
+		font-family: consolas, monospace;
+		font-size: 20px;
+		width: 192px;
 	}
 
-	.featureslist a.selected:hover {
-		color: #fff;
-	}
-
-	/* common features */
-
-	.featureslist .colb {
-		margin-left: 194px;
-		width: 280px;
-	}
-
-		.featureslist li.colf {
-			margin-top: -168px;
+		.featureslist a:link, .featureslist a:visited {
+			text-decoration: none;
+			line-height: 28px;
+			padding: 1px 10px;
+			border-radius: 8px;
+			white-space: nowrap;
+			-webkit-transition: background .7s ease;
+			-moz-transition: background .7s ease;
+			-ms-transition: background .7s ease;
+			-o-transition: background .7s ease;
+			transition: background .7s ease;
 		}
 
-	.featureslist .colc {
-		width: 172px;
-		margin-left: 476px;
-	}
-
-	.featureslist .cold {
-		width: 210px;
-		margin-left: 650px;
-	}
-
-	.featureslist .cole {
-		width: 225px;
-		margin-left: 880px;
-	}
-
-	/* common features end here */
-
-	/* edge features */
-
-	.featureslist .colg {
-		width: 174px;
-	}
-
-		.featureslist .coll {
-			margin-top: -140px;
+		.featureslist a.selected:link, .featureslist a.selected:visited {
+			background: #993102;
+			padding: 1px 10px;
+			-moz-border-radius: 8px;
+			-webkit-border-radius: 8px;
+			border-radius: 8px;
+			border: solid 1px #973c14;
 		}
 
-	.featureslist .colh {
-		width: 247px;
-		margin-left: 176px;
+		.featureslist a.selected:hover {
+			color: #fff;
+		}
+
+		/* common features */
+
+		.featureslist .colb {
+			margin-left: 194px;
+			width: 280px;
+		}
+
+			.featureslist li.colf {
+				margin-top: -168px;
+			}
+
+		.featureslist .colc {
+			width: 172px;
+			margin-left: 476px;
+		}
+
+		.featureslist .cold {
+			width: 210px;
+			margin-left: 650px;
+		}
+
+		.featureslist .cole {
+			width: 225px;
+			margin-left: 880px;
+		}
+
+		/* common features end here */
+
+		/* edge features */
+
+		.featureslist .colg {
+			width: 174px;
+		}
+
+			.featureslist .coll {
+				margin-top: -140px;
+			}
+
+		.featureslist .colh {
+			width: 247px;
+			margin-left: 176px;
+		}
+
+		.featureslist .coli {
+			width: 223px;
+			margin-left: 425px;
+		}
+
+		.featureslist .colj {
+			width: 178px;
+			margin-left: 650px;
+		}
+
+		.featureslist .colk {
+			width: 250px;
+			margin-left: 830px;
+		}
+
+		/* edge features end here */
+
+.adlink:link, .adlink:visited {
+	margin: -40px auto 20px auto;
+	color: #a48b80;
+	text-decoration: none;
+	display: block;
+	max-width: 1060px;
+	width: 80%;
+	padding: 10px;
+	border: dashed 1px #7f5d4d;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	-webkit-transition: background-color .4s;
+	-moz-transition: background-color .4s;
+	-ms-transition: background-color .4s;
+	-o-transition: background-color .4s;
+	transition: background-color .4s;
+}
+
+.adlink:hover, .adlink:active {
+	background-color: #51220D;
+}
+
+	.adlink p {
+		margin: 0;
 	}
-
-	.featureslist .coli {
-		width: 223px;
-		margin-left: 425px;
+	
+	.adlink span {
+		text-decoration: underline;
 	}
-
-	.featureslist .colj {
-		width: 178px;
-		margin-left: 650px;
-	}
-
-	.featureslist .colk {
-		width: 250px;
-		margin-left: 830px;
-	}
-
-	/* edge features end here */
-
+	
 .code {
 	width: 1066px;
 	height: 110px;
@@ -1858,6 +1889,10 @@ footer {
 		margin-top: 0;
 	}
 	
+	.adlink:link, .adlink:visited {
+		margin-top: 0;
+	}
+	
 }
 
 @media (max-width: 480px) and (orientation: landscape) {
@@ -1880,7 +1915,7 @@ footer {
 	.viewnav li a {
 		height: 40px;
 	}
-	
+
 }
 
 @media (max-width: 480px) {

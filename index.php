@@ -27,10 +27,10 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-	<link rel="stylesheet" href="css/styles.css?v=1.5.9.3">
+	<link rel="stylesheet" href="css/styles.css?v=1.5.9.4">
 
 	<script src="js/modernizr-2.0.6.min.js"></script>
-
+	
 </head>
 
 <body>
@@ -60,7 +60,11 @@ $proptitlestr = str_replace("feature-", "", $prop);
 			<?php include "includes/edge.php"; ?>
 		</ul>
 
-	</div><!-- .proplist -->
+	</div><!-- .propsnav -->
+	
+	<a href="http://www.impressivewebs.com?src=cc" class="adlink globalwidth" rel="nofollow">
+	<p>The CSS3 Click Chart is brought to you by <span>Impressive Webs</span>.</p>
+	</a>
 
 	<div class="globalwidth">
 
