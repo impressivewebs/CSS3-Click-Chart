@@ -30,7 +30,17 @@ $proptitlestr = str_replace("feature-", "", $prop);
 	<link rel="stylesheet" href="css/styles.css?v=1.5.9.4">
 
 	<script src="js/modernizr-2.0.6.min.js"></script>
-	
+
+	<script type="text/javascript">
+	function recordOutboundLink(link, category, action) {
+	  try {
+		var myTracker=_gat._getTrackerByName();
+		_gaq.push(['myTracker._trackEvent', ' + category + ', ' + action + ']);
+		setTimeout('document.location = "' + link.href + '"', 100)
+	  }catch(err){}
+	}
+	</script>
+
 </head>
 
 <body>
@@ -61,8 +71,8 @@ $proptitlestr = str_replace("feature-", "", $prop);
 		</ul>
 
 	</div><!-- .propsnav -->
-	
-	<a href="http://www.impressivewebs.com?src=cc" class="adlink globalwidth" rel="nofollow">
+
+	<a href="http://www.impressivewebs.com?src=cc" class="adlink globalwidth" rel="nofollow" onClick="recordOutboundLink(this, 'Outbound Links', 'impressivewebs.com?src=cc');return false;">
 	<p>The CSS3 Click Chart is brought to you by <span>Impressive Webs</span>.</p>
 	</a>
 
@@ -129,7 +139,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 		<div class="globalwidth">
 		<p>Fork the project or offer suggestions for improvements <a href="https://github.com/impressivewebs/CSS3-Click-Chart">on the GitHub page</a></p>
 
-		<p class="cr">Copyright &copy; 2011 by <a href="http://www.impressivewebs.com">Louis Lazaris</a> | <a href="http://twitter.com/ImpressiveWebs">Follow me on Twitter</a> | <a href="http://www.iconshock.com/html5-icons/">HTML5 icons by Icon Shock</a></p>
+		<p class="cr">Copyright &copy; 2011 by <!--<a href="http://www.impressivewebs.com">-->Louis Lazaris<!--</a>--> | <a href="http://twitter.com/ImpressiveWebs">Follow me on Twitter</a> | <a href="http://www.iconshock.com/html5-icons/">HTML5 icons by Icon Shock</a></p>
 		</div><!-- .footer-inside -->
 
 	</footer>
