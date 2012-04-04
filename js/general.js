@@ -146,9 +146,11 @@ var s = null,
 			if (view === 'common') {
 				s.commonList.slideDown(s.speed);
 				s.edgeList.slideUp(s.speed);
+				document.location = '#box-sizing';
 			} else {
 				s.edgeList.slideDown(s.speed);
 				s.commonList.slideUp(s.speed);
+				document.location = '#calc';
 			}
 
 		},
@@ -172,7 +174,7 @@ var s = null,
 			s.dlHREF = $('.propsnav').find('a[href$="' + view + '"]');
 
 			if (s.dlHREF.parent().parent().attr('id') === 'commonlist') {
-
+				
 				s.commonList.slideDown(s.speed);
 				s.edgeList.slideUp(s.speed);
 				s.btnCommon.addClass('selected');
@@ -181,7 +183,7 @@ var s = null,
 			} else {
 
 				s.commonList.slideUp(s.speed);
-				s.commonList.slideUp(s.speed);
+				s.edgeList.slideDown(s.speed);
 				s.btnEdge.addClass('selected');
 				s.btnCommon.removeClass('selected');
 
