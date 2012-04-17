@@ -29,7 +29,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
 	<link rel="stylesheet" href="css/styles.css?v=1.5.9.4">
 
-	<script src="js/modernizr-2.0.6.min.js"></script>
+	<script src="js/modernizr-2.5.3.min.js"></script>
 
 	<script type="text/javascript">
 	function recordOutboundLink(link, category, action) {
