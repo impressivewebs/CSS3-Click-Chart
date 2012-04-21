@@ -27,7 +27,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-	<link rel="stylesheet" href="css/styles.css?v=1.5.9.4">
+	<link rel="stylesheet" href="css/styles.css?v=1.5.9.5">
 
 	<script src="js/modernizr-2.5.3.min.js"></script>
 
