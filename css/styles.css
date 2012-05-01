@@ -715,7 +715,7 @@ header {
 
 		/* edge features end here */
 
-.adlink:link, .adlink:visited {
+.midlink:link, .midlink:visited {
 	margin: -40px auto 20px auto;
 	color: #a48b80;
 	text-decoration: none;
@@ -734,15 +734,15 @@ header {
 	transition: background-color .4s;
 }
 
-.adlink:hover, .adlink:active {
+.midlink:hover, .midlink:active {
 	background-color: #51220D;
 }
 
-	.adlink p {
+	.midlink p {
 		margin: 0;
 	}
 	
-	.adlink span {
+	.midlink span {
 		text-decoration: underline;
 	}
 	
@@ -1891,7 +1891,7 @@ footer {
 		margin-top: 0;
 	}
 	
-	.adlink:link, .adlink:visited {
+	.midlink:link, .midlink:visited {
 		margin-top: 0;
 	}
 	

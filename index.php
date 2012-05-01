@@ -27,7 +27,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-	<link rel="stylesheet" href="css/styles.css?v=1.5.9.5">
+	<link rel="stylesheet" href="css/styles.css?v=1.5.9.6">
 
 	<script src="js/modernizr-2.5.3.min.js"></script>
 
@@ -72,7 +72,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
 	</div><!-- .propsnav -->
 
-	<a href="http://www.impressivewebs.com?src=cc" class="adlink globalwidth" rel="nofollow" onClick="recordOutboundLink(this, 'Outbound Links', 'impressivewebs.com?src=cc');return false;">
+	<a href="http://www.impressivewebs.com?src=cc" class="midlink globalwidth" rel="nofollow">
 	<p>The CSS3 Click Chart is brought to you by <span>Impressive Webs</span>.</p>
 	</a>
 
