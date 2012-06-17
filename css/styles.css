@@ -928,6 +928,14 @@ pre.code {
 		-ms-animation-delay: 0;
 		-ms-animation-play-state: running;
 		-ms-animation-fill-mode: none;
+		
+		-o-animation-name: bounceball;
+		-o-animation-duration: 1s;
+		-o-animation-iteration-count: infinite;
+		-o-animation-direction: alternate;
+		-o-animation-delay: 0;
+		-o-animation-play-state: running;
+		-o-animation-fill-mode: none;
 
 		animation-name: bounceball;
 		animation-duration: 1s;
@@ -961,6 +969,17 @@ pre.code {
 	}
 
 	@-ms-keyframes bounceball {
+		from {
+			bottom: 0;
+		}
+
+		to {
+			bottom: 60px;
+		}
+
+	}
+	
+	@-o-keyframes bounceball {
 		from {
 			bottom: 0;
 		}
