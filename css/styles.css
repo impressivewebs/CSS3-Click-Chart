@@ -1766,25 +1766,25 @@ footer {
 		float: right;
 		padding-left: 0;
 	}
-
+	
 	.featureslist li.colb, .featureslist li.colc, .featureslist li.cold, .featureslist li.cole {
 		width: auto;
 	}
 
 	.featureslist li.colb {
-		margin-left: 145px;
+		margin-left: 155px;
 	}
 	
 	.featureslist li.colc {
-		margin-left: 380px;
+		margin-left: 400px;
 	}
 	
 	.featureslist li.cold {
-		margin-left: 510px;
+		margin-left: 540px;
 	}
 	
 	.featureslist li.cole {
-		margin-left: 704px;
+		margin-left: 744px;
 	}
 	
 	.desc {
@@ -1803,7 +1803,7 @@ footer {
 	h2 {
 		font-size: 26px;
 	}
-	
+
 }
 
 @media (max-width: 970px) {
