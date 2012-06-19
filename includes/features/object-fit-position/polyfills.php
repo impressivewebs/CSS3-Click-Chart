@@ -1,0 +1,1 @@
+<a href="https://github.com/schmidsi/jquery-object-fit">jQuery.object-fit.js (currently only supports object-fit: contain;)</a>
