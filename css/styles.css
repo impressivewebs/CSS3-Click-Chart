@@ -584,6 +584,9 @@ header {
 				box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
 			}
 			
+            .viewnav li a:focus {
+            }
+
 			.viewnav li a.selected:link, .viewnav li a.selected:visited {
 				opacity: 1;
 			}
@@ -612,14 +615,25 @@ header {
 		}
 			* html .globalwidth             { zoom: 1; } /* IE6 */
 			*:first-child+html .globalwidth { zoom: 1; } /* IE7 */
+            
+        .clearfix:after {
+			visibility: hidden;
+			display: block;
+			font-size: 0;
+			content: " ";
+			clear: both;
+			height: 0;
+		}
+			* html .clearfix             { zoom: 1; } /* IE6 */
+			*:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
 .propsnav {
-	padding-bottom: 60px;
+	padding-bottom: 40px; /* was 60 with mid ad */
 }
 
 	.featureslist {
 		margin: 0;
-		padding: 30px 0 0 0;
+		padding: 20px 0 0 0;
 	}
 
 	.featureslist li {
@@ -745,7 +759,30 @@ header {
 	.midlink span {
 		text-decoration: underline;
 	}
-	
+    
+    .ap {
+        position: absolute;
+        top: 300px;
+        right: 0;
+        width: 270px;
+        overflow: hidden;
+        border: none;
+    }
+    
+        .ap-link:link, .ap-link:visited {
+            font-size: 13px;
+            position: absolute;
+            right: 10px;
+        }
+        
+        .one .bsa_it_p a {
+            display: none;
+        }
+        
+        .bsa_it_ad a {
+            display: block;
+        }
+
 .code {
 	width: 1066px;
 	height: 110px;
@@ -776,9 +813,13 @@ pre.code {
 .desc {
 	padding-bottom: 20px;
 	overflow: hidden;
+    float: left;
+	width: 600px;
+	padding-right: 20px;
 }
 
 .ed {
+    padding-top: 30px;
 	padding-bottom: 40px;
 	position: relative;
 }
@@ -786,11 +827,11 @@ pre.code {
 	.toggle-autosize {
 		position: absolute;
 		right: 20px;
-		top: 7px;
+		top: 37px;
 		font-size: 15px;
 		text-decoration: none;
 	}
-	
+
 	.codeselect {
 		font-size: 15px;
 		text-decoration: none;
@@ -800,15 +841,9 @@ pre.code {
 		float: left;
 	}
 
-.desc {
-	float: left;
-	width: 610px;
-	padding-right: 90px;
-}
-
 .spec {
 	float: left;
-	width: 380px;
+	width: 440px;
 }
 
 .result {
@@ -1672,10 +1707,27 @@ footer {
 
 /* Media queries */
 
+@media (max-width: 1550px) {
+
+    .spec {
+        width: 350px;
+    }
+
+}
+
 @media (max-width: 1400px) {
 	.github-ribbon {
 		display: none;
 	}
+    
+}
+
+@media (max-width: 1385px) {
+
+    .spec {
+        width: 210px;
+    }
+
 }
 
 @media (max-width: 1150px) {
@@ -1729,10 +1781,6 @@ footer {
 		width: 480px;
 	}
 	
-	.spec {
-		width: auto;
-	}
-
 	.code {
 		width: 98%;
 	}
@@ -1816,7 +1864,7 @@ footer {
 		clear: left;
 		float: none;
 	}
-	
+    
 	header {
 		padding-bottom: 15px;
 	}
@@ -1854,6 +1902,10 @@ footer {
 	.featureslist li.colk {
 		margin-left: 164px;
 	}
+    
+    .fledge {
+        padding-bottom: 40px;
+    }
 
 	.demo-left, .demo-right, .tutorials, .polyfills {
 		width: auto;
@@ -1865,7 +1917,11 @@ footer {
 	.demo-right {
 		padding-top: 30px;
 	}
-	
+    
+    .ap {
+        top: 370px;
+    }
+    
 }
 
 @media (max-width: 691px) {
@@ -1936,6 +1992,21 @@ footer {
 	.viewnav li a {
 		height: 40px;
 	}
+
+}
+
+@media (max-width: 520px) {
+
+    .ap {
+        position: static;
+        margin-left: 20px;
+        margin-top: -20px;
+        margin-bottom: 45px;
+    }
+    
+    .ap-link:link, .ap-link:visited {
+        position: static;
+    }
 
 }
 

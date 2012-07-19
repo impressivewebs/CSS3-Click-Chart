@@ -29,7 +29,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-	<link rel="stylesheet" href="css/styles.css?v=1.5.9.8">
+	<link rel="stylesheet" href="css/styles.css?v=1.6.1.4.6">
 
 	<script src="js/modernizr-2.5.3.min.js"></script>
 
@@ -53,7 +53,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
 		<h1><a href="http://css3clickchart.com" class="title-link">CSS3 Click Chart</a></h1>
 
-		<ul class="viewnav">
+		<ul class="viewnav clearfix">
 			<li class="btncommon"><a href="?view=common" class="selected">common stuff</a></li>
 			<li class="btnedge"><a href="?view=edge">cutting-edge</a></li>
 		</ul>
@@ -68,15 +68,15 @@ $proptitlestr = str_replace("feature-", "", $prop);
 			<?php include "includes/common.php"; ?>
 		</ul>
 
-		<ul id="edgelist" class="featureslist">
+		<ul id="edgelist" class="featureslist fledge">
 			<?php include "includes/edge.php"; ?>
 		</ul>
 
 	</div><!-- .propsnav -->
 
-	<a href="http://www.impressivewebs.com?src=cc" class="midlink globalwidth" rel="nofollow">
+	<!-- <a href="http://www.impressivewebs.com?src=cc" class="midlink globalwidth" rel="nofollow">
 	<p>The CSS3 Click Chart is brought to you by <span>Impressive Webs</span>.</p>
-	</a>
+	</a> -->
 
 	<div class="globalwidth">
 
@@ -120,8 +120,8 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
 		</div><!-- .demo-right -->
 
-	</div>
-
+	</div><!-- demo / support wrapper -->
+    
 	<div class="globalwidth infoboxes ext">
 
 		<div id="polyfills" class="polyfills">
@@ -136,12 +136,14 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
 	</div><!-- .infoboxes -->
 
+    <iframe class="ap" id="ap" src="includes/bsa.php"></iframe><!-- .ap -->
+
 	<footer>
 
 		<div class="globalwidth">
 		<p>Fork the project or offer suggestions for improvements <a href="https://github.com/impressivewebs/CSS3-Click-Chart">on the GitHub page</a></p>
 
-		<p class="cr">Copyright &copy; 2011 by <!--<a href="http://www.impressivewebs.com">-->Louis Lazaris<!--</a>--> | <a href="http://twitter.com/ImpressiveWebs">Follow me on Twitter</a> | <a href="http://www.iconshock.com/html5-icons/">HTML5 icons by Icon Shock</a></p>
+		<p class="cr">Copyright &copy; 2011 by <a href="http://www.impressivewebs.com">Louis Lazaris</a> | <a href="http://twitter.com/ImpressiveWebs">Follow me on Twitter</a> | <a href="http://www.iconshock.com/html5-icons/">HTML5 icons by Icon Shock</a></p>
 		</div><!-- .footer-inside -->
 
 	</footer>
@@ -151,7 +153,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.1.min.js"%3E%3C/script%3E'))</script>
 
-<script src="js/general.js?ver=1.4.2"></script>
+<script src="js/general.js?ver=1.4.3"></script>
 
 <script>
 var _gaq = [['_setAccount', 'UA-1965499-10'], ['_trackPageview']];

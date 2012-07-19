@@ -61,6 +61,8 @@ var s = null,
 				s.viewLink = this.href.split('?view=');
 
 				Css3clickchart.doView(s.viewLink[1]);
+                
+                Css3clickchart.doAdLoad();
 
 				return false;
 
@@ -73,7 +75,9 @@ var s = null,
 
 				s.featureURL = this.href.split('?prop=');
 				location.hash = s.featureURL[1];
-
+                
+                Css3clickchart.doAdLoad();
+                
 				return false;
 
 			});
@@ -268,7 +272,14 @@ var s = null,
 
 			});
 			
-		}
+		},
+        
+        doAdLoad: function () {
+
+			s = this.settings;
+            $('#ap').attr('src', $('#ap').attr('src'));
+            
+        }
 
 	};
 
