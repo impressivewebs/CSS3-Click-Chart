@@ -26,4 +26,4 @@
 <li class="colk"><a href="?prop=object-fit-position">object fit/position</a></li>
 <li class="colk"><a href="?prop=canvas-backgrounds">canvas backgrounds *</a></li>
 <li class="colk"><a href="?prop=template-layout">template layout</a></li>
-<li class="colk">&nbsp;</li>
+<li class="colk"><a href="?prop=toggle">toggle()</a></li>
