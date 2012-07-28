@@ -1,0 +1,1 @@
+Lets you align boxes in more useful ways, including vertically, and across various dimensions.

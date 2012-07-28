@@ -1,0 +1,3 @@
+.element {
+    blend-mode: multiply;
+}

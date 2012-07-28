@@ -1,0 +1,1 @@
+Allows you to combine graphic elements with their backgrounds, using effects like "multiply", "darken", "luminosity", etc  that are common in graphics editors.

@@ -1,0 +1,1 @@
+Lets you apply a "fixed" background that's fixed relative to the element on which its applied, rather than the viewport.

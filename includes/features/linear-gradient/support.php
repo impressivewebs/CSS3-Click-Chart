@@ -1,5 +1,5 @@
 <p><strong>New Standard Syntax:</strong><br>
-No support</p>
+IE10+, Firefox 16+</p>
 
 <p><strong>New Vendor Syntax:</strong><br>
 Firefox 10+, Opera 11.6+</p>

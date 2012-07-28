@@ -1,0 +1,1 @@
+Lets you define your own "variables properties" to which you can assign values and use in multiple places, very similar to how variables work in JavaScript or PHP.

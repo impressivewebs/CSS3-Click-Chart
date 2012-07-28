@@ -15,14 +15,6 @@
 	-moz-animation-play-state: running;
 	-moz-animation-fill-mode: none;
 
-	-ms-animation-name: bounceball;
-	-ms-animation-duration: 1s;
-	-ms-animation-iteration-count: infinite;
-	-ms-animation-direction: alternate;
-	-ms-animation-delay: 0;
-	-ms-animation-play-state: running;
-	-ms-animation-fill-mode: none;
-
 	animation-name: bounceball;
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
@@ -44,17 +36,6 @@
 }
 
 @-moz-keyframes bounceball {
-	from {
-		bottom: 0;
-	}
-
-	to {
-		bottom: 60px;
-	}
-
-}
-
-@-ms-keyframes bounceball {
 	from {
 		bottom: 0;
 	}

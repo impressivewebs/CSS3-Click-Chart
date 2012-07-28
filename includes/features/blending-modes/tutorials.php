@@ -1,0 +1,1 @@
+<a href="http://blogs.adobe.com/webplatform/2012/04/04/bringing-blending-to-the-web/">Bringing Blending to the Web</a><br>

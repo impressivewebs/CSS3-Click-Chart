@@ -704,7 +704,7 @@ header {
 		}
 
 			.featureslist .coll {
-				margin-top: -140px;
+				margin-top: -169px;
 			}
 
 		.featureslist .colh {
@@ -715,7 +715,7 @@ header {
 		.featureslist .coli {
 			width: 223px;
 			margin-left: 425px;
-		}
+        }
 
 		.featureslist .colj {
 			width: 178px;
@@ -814,8 +814,8 @@ pre.code {
 	padding-bottom: 20px;
 	overflow: hidden;
     float: left;
-	width: 600px;
-	padding-right: 20px;
+	width: 580px;
+	padding-right: 40px;
 }
 
 .ed {
