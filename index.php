@@ -29,7 +29,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-	<link rel="stylesheet" href="css/styles.css?v=1.6.2">
+	<link rel="stylesheet" href="css/styles.css?v=1.6.4">
 
 	<script src="js/modernizr-2.5.3.min.js"></script>
 
@@ -136,7 +136,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
 	</div><!-- .infoboxes -->
 
-    <iframe class="ap" id="ap" src="includes/bsa.php"></iframe><!-- .ap -->
+    <iframe class="ap" id="ap" src="includes/bsa.php" scrolling="no"></iframe><!-- .ap -->
 
 	<footer>
 

@@ -1,3 +1,3 @@
 .element {
-	word-wrap: break-word; /* or "normal" */
+    word-wrap: break-word; /* or "normal" */
 }

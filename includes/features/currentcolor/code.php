@@ -1,7 +1,7 @@
 .parent {
-	color: lightgreen;
+    color: lightgreen;
 }
 
-	.child {
-		background-color: currentColor;
-	}
+    .child {
+        background-color: currentColor;
+    }

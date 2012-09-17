@@ -1,5 +1,5 @@
 .element {
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
 }

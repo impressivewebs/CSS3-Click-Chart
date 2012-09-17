@@ -1,7 +1,7 @@
 <li><a href="?prop=box-sizing">box sizing</a></li>
 <li><a href="?prop=hsla">hsla colors</a></li>
 <li><a href="?prop=text-shadow">text shadow</a></li>
-<li><a href="?prop=word-wrap">word wrap *</a></li>
+<li><a href="?prop=word-wrap">word wrap</a></li>
 <li><a href="?prop=rgba">rgba colors</a></li>
 <li><a href="?prop=translate-transform">translate</a></li>
 

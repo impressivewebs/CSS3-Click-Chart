@@ -1,3 +1,3 @@
 .element2 {
-	overflow-wrap: break-word; /* or "normal" */
+    overflow-wrap: break-word; /* or "normal" */
 }

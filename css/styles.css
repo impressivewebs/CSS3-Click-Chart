@@ -574,7 +574,6 @@ header {
 				transition: opacity .5s ease;
 				background: #bb4c1a;
 				background: -moz-linear-gradient(#bb4c1a 0%, #bb4c1a 45%, #ac3600 55%, #ac3600 100%); /* FF 3.6+ */
-				background: -ms-linear-gradient(#bb4c1a 0%, #bb4c1a 45%, #ac3600 55%, #ac3600 100%); /* IE10 */
 				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bb4c1a), color-stop(45%, #bb4c1a), color-stop(55%, #ac3600), color-stop(100%, #ac3600)); /* Safari 4+, Chrome 2+ */
 				background: -webkit-linear-gradient(#bb4c1a 0%, #bb4c1a 45%, #ac3600 55%, #ac3600 100%); /* Safari 5.1+, Chrome 10+ */
 				background: -o-linear-gradient(#bb4c1a 0%, #bb4c1a 45%, #ac3600 55%, #ac3600 100%); /* Opera 11.10 */
@@ -767,6 +766,7 @@ header {
         width: 270px;
         overflow: hidden;
         border: none;
+        padding-bottom: 3px;
     }
     
         .ap-link:link, .ap-link:visited {
@@ -775,14 +775,6 @@ header {
             right: 10px;
         }
         
-        .one .bsa_it_p a {
-            display: none;
-        }
-        
-        .bsa_it_ad a {
-            display: block;
-        }
-
 .code {
 	width: 1066px;
 	height: 110px;
@@ -1350,6 +1342,7 @@ pre.code {
 	
 	.result-calc {
 		width: 70%;
+        width: -webkit-calc(70% - 50px);
 		width: -moz-calc(70% - 50px);
 		width: calc(70% - 50px);
 		margin: 20px auto;

@@ -1,1 +1,1 @@
-Note: This property is now obsolete, replaced by <a href="?prop=overflow-wrap">overflow-wrap</a>. Allows you to define whether or not to wrap long strings of unbroken text.
+Allows you to define whether or not to wrap long strings of unbroken text. Note: This is now considered an alternate name for the new <a href="?prop=overflow-wrap">overflow-wrap</a>. All browsers must support both syntaxes.

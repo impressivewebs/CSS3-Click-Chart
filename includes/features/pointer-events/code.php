@@ -1,3 +1,3 @@
 .element { 
-	pointer-events: visibleFill;
+    pointer-events: visibleFill;
 }

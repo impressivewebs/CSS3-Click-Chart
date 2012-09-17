@@ -10,5 +10,5 @@
 }
 
 h1 {
-	font-family: 'Font Name', 'fallback font', serif;
+    font-family: 'Font Name', 'fallback font', serif;
 }

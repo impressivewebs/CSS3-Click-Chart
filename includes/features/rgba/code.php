@@ -1,3 +1,3 @@
 .element {
-	background: rgba(98, 135, 167, .5);
+    background: rgba(98, 135, 167, .5);
 }

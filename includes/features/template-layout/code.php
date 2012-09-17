@@ -1,6 +1,6 @@
 .element {
-	display: "ab"
-		 "cd";
+    display: "ab"
+             "cd";
 }
 
 .one   { position: a }
