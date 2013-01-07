@@ -1,8 +1,5 @@
-@media -o-paged {
-
-    html { 
-        height: 100%;
-        overflow: -o-paged-x;
-    }
-
+@supports ( display: flexbox ) {
+    body, #navigation, #content { display: flexbox; }
+    #navigation { background: blue; color: white; }
+    #article { background: white; color: black; }
 }

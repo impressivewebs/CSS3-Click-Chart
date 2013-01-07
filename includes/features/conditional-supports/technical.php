@@ -1,1 +1,1 @@
-<a href="http://dev.w3.org/csswg/css3-conditional/">@supports on W3C</a>
+<a href="http://dev.w3.org/csswg/css3-conditional/#at-supports">@supports on W3C</a>
