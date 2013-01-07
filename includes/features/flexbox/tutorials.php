@@ -1,3 +1,4 @@
-<a href="http://www.html5rocks.com/en/tutorials/flexbox/quick/">Quick hits with the Flexible Box Model</a><br>
-<a href="http://msdn.microsoft.com/en-gb/library/hh673531.aspx">Flexible box ("Flexbox") layout on MSDN</a><br>
-<a href="http://coding.smashingmagazine.com/2011/09/19/css3-flexible-box-layout-explained/">CSS3 Flexible Box Layout Explained</a><br>
+<a href="http://www.the-haystack.com/2012/01/04/learn-you-a-flexbox/">Learn You a Flexbox for Great Good!</a><br>
+<a href="http://net.tutsplus.com/tutorials/html-css-techniques/an-introduction-to-css-flexbox/">An Introduction to the CSS Flexbox Module</a><br>
+<a href="http://weblog.bocoup.com/dive-into-flexbox/">Dive Into Flexbox</a><br>
+<a href="http://css-tricks.com/old-flexbox-and-new-flexbox/">"Old" Flexbox and "New" Flexbox</a><br>

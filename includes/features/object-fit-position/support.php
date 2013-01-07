@@ -2,4 +2,4 @@
 No support</p>
 
 <p><strong>Vendor Prefix:</strong><br>
-Opera 11+</p>
+Opera 10.6+</p>

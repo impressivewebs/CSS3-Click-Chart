@@ -1,1 +1,1 @@
-Text Wrap / Overflow Wrap
+Word Wrap / Overflow Wrap

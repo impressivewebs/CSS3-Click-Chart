@@ -1,0 +1,1 @@
+<a href="https://developer.mozilla.org/en-US/docs/CSS/::selection">::selection on MDN</a><br>

@@ -1,1 +1,1 @@
-Similar to the obsolete <code>word-wrap</code>, these properties allow you to define how to handle line breaking.
+This property allows you to define how to handle line breaking. An alternate syntax is the old <code>word-wrap</code>, which has support in every browser, including old versions of IE.

@@ -1,0 +1,1 @@
+Allows native feature detection, similar to Modernizr, using <code>@supports</code>

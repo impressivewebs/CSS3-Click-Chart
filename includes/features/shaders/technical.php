@@ -1,1 +1,0 @@
-<a href="https://dvcs.w3.org/hg/FXTF/raw-file/tip/custom/index.html">Shaders on W3C</a>

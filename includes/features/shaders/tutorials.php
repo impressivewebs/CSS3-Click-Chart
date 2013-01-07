@@ -1,1 +1,0 @@
-<a href="http://www.adobe.com/devnet/html5/articles/css-shaders.html">CSS Shaders on Adobe.com</a><br>

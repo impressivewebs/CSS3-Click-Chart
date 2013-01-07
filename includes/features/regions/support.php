@@ -2,4 +2,4 @@
 No support</p>
 
 <p><strong>Partial Vendor Support:</strong><br>
-IE10+, Chrome 15+, Safari 6+</p>
+IE10+ (partial), Chrome 19+ (partial; must enable in about:flags)</p>

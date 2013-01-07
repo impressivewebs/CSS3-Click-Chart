@@ -1,1 +1,1 @@
-<p class="result-text">N/A</p>
+<p class="result-wordwrap">The one-word link shown below is too long for the width of this element, but it's broken onto two lines using the <code>word-wrap</code> property: <a href="http://en.wikipedia.org/wiki/Pneumonoultramicroscopicsilicovolcanoconiosis">Pneumonoultramicroscopicsilicovolcanoconiosis</a></p>
