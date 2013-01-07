@@ -25,7 +25,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 	<!-- Remove these two references once the files are in root with these file names -->
 	<link rel="shortcut icon" href="/favicon.ico">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
@@ -153,7 +153,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.1.min.js"%3E%3C/script%3E'))</script>
 
-<script src="js/general.js?ver=1.4.3"></script>
+<script src="js/general.js?ver=1.4.4"></script>
 
 <script>
 var _gaq = [['_setAccount', 'UA-1965499-10'], ['_trackPageview']];
