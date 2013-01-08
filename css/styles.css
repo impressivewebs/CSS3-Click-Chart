@@ -8,7 +8,6 @@
  * Corrects block display not defined in IE6/7/8/9 & FF3
  */
 
-
 article,
 aside,
 details,
@@ -475,7 +474,6 @@ a:link, a:visited {
     color: #fff;
     -webkit-transition: color .5s ease;
     -moz-transition: color .5s ease;
-    -ms-transition: color .5s ease;
     -o-transition: color .5s ease;
     transition: color .5s ease;
 }
@@ -496,7 +494,6 @@ a.title-link:hover {
 h1, h2, .viewnav li, .featureslist li, .result-mediaqueries, .result-transition, .demo-left, .demo-right {
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
 }
@@ -569,7 +566,6 @@ header {
                 opacity: .75;
                 -webkit-transition: opacity .5s ease;
                 -moz-transition: opacity .5s ease;
-                -ms-transition: opacity .5s ease;
                 -o-transition: opacity .5s ease;
                 transition: opacity .5s ease;
                 background: #bb4c1a;
@@ -650,7 +646,6 @@ header {
             white-space: nowrap;
             -webkit-transition: background .7s ease;
             -moz-transition: background .7s ease;
-            -ms-transition: background .7s ease;
             -o-transition: background .7s ease;
             transition: background .7s ease;
         }
@@ -742,7 +737,6 @@ header {
     letter-spacing: 1px;
     -webkit-transition: background-color .4s;
     -moz-transition: background-color .4s;
-    -ms-transition: background-color .4s;
     -o-transition: background-color .4s;
     transition: background-color .4s;
 }
@@ -948,14 +942,6 @@ pre.code {
         -moz-animation-play-state: running;
         -moz-animation-fill-mode: none;
 
-        -ms-animation-name: bounceball;
-        -ms-animation-duration: 1s;
-        -ms-animation-iteration-count: infinite;
-        -ms-animation-direction: alternate;
-        -ms-animation-delay: 0;
-        -ms-animation-play-state: running;
-        -ms-animation-fill-mode: none;
-        
         -o-animation-name: bounceball;
         -o-animation-duration: 1s;
         -o-animation-iteration-count: infinite;
@@ -995,17 +981,6 @@ pre.code {
 
     }
 
-    @-ms-keyframes bounceball {
-        from {
-            bottom: 0;
-        }
-
-        to {
-            bottom: 60px;
-        }
-
-    }
-    
     @-o-keyframes bounceball {
         from {
             bottom: 0;
@@ -1123,7 +1098,7 @@ pre.code {
         resize: both;
         overflow: hidden;
     }
-    
+
     .result-boxshadow {
         width: 330px;
         height: 50px;
@@ -1150,7 +1125,6 @@ pre.code {
         background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #d85e0c), color-stop(1, #f39454)); /* Safari 4+, Chrome 2+ */
         background-image: -webkit-linear-gradient(top, #d85e0c, #f39454); /* Safari 5.1+, Chrome 10+ */
         background-image: -o-linear-gradient(top, #d85e0c, #f39454); /* Opera 11.1+ */
-        background-image: -ms-linear-gradient(top, #d85e0c, #f39454); /* IE10+ */
         filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#d85e0c', endColorstr='#f39454'); /* IE6,IE7 */
         -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#d85e0c', endColorstr='#f39454')"; /* IE8+ */
         background-image: linear-gradient(top, #d85e0c, #f39454);
@@ -1161,7 +1135,7 @@ pre.code {
         width: 400px;
         min-height: 70px;
         border-width: 20px;
-        -webkit-resize: both;
+        -moz-resize: both;
         resize: both;
         overflow: hidden;
         text-align: center;
@@ -1177,9 +1151,6 @@ pre.code {
         -webkit-text-fill-color: #fff;
         -webkit-text-stroke-color: #d78965;
         -webkit-text-stroke-width: 3px;
-        text-fill-color: #fff;
-        text-stroke-color: #d78965;
-        text-stroke-width: 3px;
     }
 
     .result-mediaqueries {
@@ -1233,7 +1204,6 @@ pre.code {
         background-image: -moz-radial-gradient(center center, circle closest-corner, #d85e0c 10%, #f39454 70%);
         background-image: -webkit-gradient(radial, center center, 10, center center, 70, from(#d85e0c), to(#f39454)); /* for older webkit */
         background-image: -webkit-radial-gradient(center center, circle closest-corner, #d85e0c 10%, #f39454 70%);
-        background-image: -ms-radial-gradient(center center, circle closest-corner, #fff 10%, #000 70%);
         background-image: radial-gradient(center center, circle closest-corner, #fff 10%, #000 70%);
     }
     
@@ -1474,7 +1444,6 @@ pre.code {
         border: solid 1px white;
         -webkit-background-clip: content-box;
         -moz-background-clip: content-box;
-        -o-background-clip: content-box;
         -ms-background-clip: content-box;
         background-clip: content-box;
         padding: 30px;
@@ -1490,7 +1459,6 @@ pre.code {
         border: solid 1px white;
         -webkit-background-origin: content-box;
         -moz-background-origin: content-box;
-        -o-background-origin: content-box;
         -ms-background-origin: content-box;
         background-clip: content-box;
         padding: 30px;
@@ -1556,9 +1524,8 @@ pre.code {
                 border: solid 1px white;
                 -webkit-transition: -webkit-transform 1s linear;
                 -moz-transition: -moz-transform 1s linear;
-                -ms-transition: -ms-transform 1s linear;
                 -o-transition: -o-transform 1s linear;
-                transition: -webkit-transform 1s linear;
+                transition: transform 1s linear;
                 text-align: center;
                 font-size: 50px;
                 line-height: 110px;
@@ -1642,7 +1609,6 @@ pre.code {
         background: transparent url(../images/bg-external.gif) no-repeat right bottom;
         -webkit-transition: none;
         -moz-transition: none;
-        -ms-transition: none;
         -o-transition: none;
         transition: none;
     }
@@ -1673,7 +1639,6 @@ h2 {
     opacity: .7;
     -webkit-transition: opacity .5s linear;
     -moz-transition: opacity .5s linear;
-    -ms-transition: opacity .5s linear;
     -o-transition: opacity .5s linear;
     transition: opacity .5s linear;
 }
