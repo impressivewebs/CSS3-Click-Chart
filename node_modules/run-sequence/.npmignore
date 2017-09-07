@@ -1,0 +1,12 @@
+.DS_Store
+*.log
+node_modules
+build
+*.node
+components
+*.orig
+.idea
+temp.txt*
+test
+yarn.lock
+

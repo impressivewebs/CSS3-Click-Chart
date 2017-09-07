@@ -1,5 +1,14 @@
-@supports ( display: flexbox ) {
-    body, #navigation, #content { display: flexbox; }
-    #navigation { background: blue; color: white; }
-    #article { background: white; color: black; }
+@supports (display: flex) {
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: center;
+  }
+
+  .child {
+    flex-grow: 1;
+    max-width: 50px;
+  }
+
 }

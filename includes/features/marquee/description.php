@@ -1,1 +1,0 @@
-Allows you to handle content overflow by applying an animated marquee effect.

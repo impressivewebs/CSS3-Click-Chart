@@ -1,1 +1,1 @@
-<a href="http://dev.w3.org/csswg/css3-ui/#box-sizing">Box Sizing on W3C</a>
+<a href="https://drafts.csswg.org/css-ui-3/#box-sizing">Box Sizing on W3C</a>

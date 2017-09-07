@@ -1,2 +1,4 @@
-<a href="http://davidwalsh.name/css-filters">CSS Filters on David Walsh Blog</a><br>
-<a href="http://net.tutsplus.com/tutorials/html-css-techniques/say-hello-to-css3-filters/">Say Hello to CSS3 Filters</a><br>
+<ul>
+  <li><a href="http://davidwalsh.name/css-filters">CSS Filters on David Walsh Blog</a><br></li>
+  <li><a href="https://www.sitepoint.com/css-filter-effects-blur-grayscale-brightness-and-more-in-css/">CSS Filter Effects: Blur, Grayscale, Brightness and More in CSS!</a></li>
+</ul>

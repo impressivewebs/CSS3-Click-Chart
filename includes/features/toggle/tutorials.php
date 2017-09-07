@@ -1,1 +1,0 @@
-<a href="http://www.impressivewebs.com/creeps-weirdos-css-spec/">Creeps and Weirdos in the CSS Spec</a><br>

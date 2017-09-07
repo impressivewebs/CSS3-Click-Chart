@@ -1,1 +1,0 @@
-Radial Gradients

@@ -1,1 +1,0 @@
-<a href="http://dev.w3.org/csswg/css3-values/#toggle-notation">toggle() on W3C</a>

@@ -1,1 +1,1 @@
-<a href="http://dev.w3.org/csswg/css3-multicol/">Multi-column Layout Module on W3C</a>
+<a href="https://drafts.csswg.org/css-multicol-1/">CSS Multi-column Layout Module Level 1</a>

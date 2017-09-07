@@ -1,1 +1,0 @@
-<p class="result-skew">This box is skewed horizontally using CSS3 transforms.</p>

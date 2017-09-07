@@ -1,1 +1,0 @@
-<a href="http://modernizr.com">Modernizr</a><br>

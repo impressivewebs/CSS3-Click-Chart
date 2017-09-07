@@ -1,1 +1,0 @@
-<a href="http://css3pie.com/">CSS3 PIE</a><br>

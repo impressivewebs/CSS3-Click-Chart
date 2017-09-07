@@ -1,1 +1,1 @@
-Lets you define the size of a background image using units or keywords.
+Lets you define the size of a background image using units or keywords. This also applies to the size of linear and radial gradients.

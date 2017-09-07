@@ -1,1 +1,0 @@
-<a href="http://davidwalsh.name/webkit-marquee-css">WebKit Marquee CSS: Bringin' Sexy Back</a><br>

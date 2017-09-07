@@ -1,1 +1,0 @@
-<a href="http://css-tricks.com/adding-stroke-to-web-text/">Adding Stroke to Web Text</a><br>

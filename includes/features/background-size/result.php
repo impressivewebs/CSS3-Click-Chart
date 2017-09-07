@@ -1,2 +1,2 @@
-<p class="result-text">The element below has a bg image sized to "100% 100%"</p>
+<p class="result-text">The <code>background-size</code> property can be used to create repeating backgrounds with no images:</p>
 <div class="result-bgsize"></div>

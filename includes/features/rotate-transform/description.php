@@ -1,1 +1,0 @@
-Allows you to rotate an element using a function as a value for the <code>transform</code> property.

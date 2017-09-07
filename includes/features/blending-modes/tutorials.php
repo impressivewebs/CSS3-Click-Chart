@@ -1,1 +1,4 @@
-<a href="http://blogs.adobe.com/webplatform/2012/04/04/bringing-blending-to-the-web/">Bringing Blending to the Web</a><br>
+<ul>
+  <li><a href="https://alistapart.com/article/blending-modes-demystified">Blending Modes Demystified</a></li>
+  <li><a href="https://www.sarasoueidan.com/blog/compositing-and-blending-in-css/">Compositing And Blending In CSS</a></li>
+</ul>

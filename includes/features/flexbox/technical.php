@@ -1,1 +1,1 @@
-<a href="http://dev.w3.org/csswg/css3-flexbox/">Flexible Box Layout Module on W3C</a>
+<a href="https://drafts.csswg.org/css-flexbox-1/">CSS Flexible Box Layout Module Level 1</a>

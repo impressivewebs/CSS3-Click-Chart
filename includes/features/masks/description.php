@@ -1,1 +1,1 @@
-Allows you to define an alpha mask to overlay content to knock out portions of the content, thus allowing the clipping of content with complex shapes.
+Allows you to use a graphical element or image as a luminance or alpha mask to hide portions of elements.

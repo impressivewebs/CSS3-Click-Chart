@@ -1,1 +1,0 @@
-<a href="http://24ways.org/2009/working-with-rgba-colour/">Working With RGBA Colour</a><br>

@@ -1,1 +1,3 @@
-<a href="http://www.useragentman.com/blog/csssandpaper-a-css3-javascript-library/">cssSandpaper</a><br>
+<ul>
+  <li><a href="https://www.impressivewebs.com/fixing-parent-child-opacity/">thatsNotYoChild.js</a></li>
+</ul>

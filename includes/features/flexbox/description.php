@@ -1,1 +1,1 @@
-Allows you to define how to distribute child elements vertically or horizontally, while also allowing you to define fluid dimensions.
+A layout module that makes it easier to align, center, space, distribute, etc., multiple elements in a layout.

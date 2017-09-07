@@ -1,0 +1,1 @@
+<p class="result-text">For a demonstration of the <code>font-size-adjust</code> property, try out <a href="https://www.brunildo.org/test/xheight.pl?family=Trebuchet+MS&size=100px&string=xipbM%C8&famil2=Georgia">this tool</a> in a supporting browser.</p>

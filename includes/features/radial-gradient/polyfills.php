@@ -1,1 +1,0 @@
-<a href="http://ie.microsoft.com/testdrive/Graphics/CSSGradientBackgroundMaker/Default.html">CSS Gradient Background Maker</a><br>

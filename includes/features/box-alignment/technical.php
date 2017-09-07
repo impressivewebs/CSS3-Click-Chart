@@ -1,1 +1,0 @@
-<a href="http://dev.w3.org/csswg/css3-align/">Box Alignment on W3C</a>

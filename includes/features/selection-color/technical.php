@@ -1,1 +1,1 @@
-* Not in the spec
+<a href="https://drafts.csswg.org/css-pseudo/#highlight-selectors">Selecting Highlighted Content on W3C</a>

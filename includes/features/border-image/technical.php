@@ -1,1 +1,1 @@
-<a href="http://dev.w3.org/csswg/css3-background/#border-images">Border Images on W3C</a>
+<a href="https://drafts.csswg.org/css-backgrounds-3/#border-images">Border Images on W3C</a>

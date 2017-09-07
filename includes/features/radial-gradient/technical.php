@@ -1,1 +1,0 @@
-<a href="http://dev.w3.org/csswg/css3-images/#radial-gradients">Radial Gradients on W3C</a>

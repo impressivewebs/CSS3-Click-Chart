@@ -1,0 +1,1 @@
+A universal CSS value that's the same as <code>inherit</code> if a property is inherited or <code>initial</code> if a property is not inherited.

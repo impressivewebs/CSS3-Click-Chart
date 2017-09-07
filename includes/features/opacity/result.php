@@ -1,1 +1,1 @@
-<p class="result-opacity">Using the <code>opacity</code> property and IE filters, this white box is semi-transparent.</p>
+<p class="result-opacity">Using the <code>opacity</code> property, this white box is semi-transparent.</p>

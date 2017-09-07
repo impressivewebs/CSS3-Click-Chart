@@ -1,4 +1,5 @@
-.element2 {
-    word-wrap: break-word; /* or "normal" */
-    overflow-wrap: break-word;
+/* You can use word-wrap as a fallback for old browsers */
+.element {
+  word-wrap: break-word; /* "normal" */
+  overflow-wrap: break-word;
 }

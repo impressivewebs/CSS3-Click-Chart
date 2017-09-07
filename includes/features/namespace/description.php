@@ -1,1 +1,0 @@
-Lets you to define an XML namespace prefix in CSS, allowing the use of selectors that match elements in a specific namespace.

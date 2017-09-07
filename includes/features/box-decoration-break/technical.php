@@ -1,0 +1,1 @@
+<a href="https://drafts.csswg.org/css-break/#break-decoration">Fragmented Borders and Backgrounds on W3C</a>

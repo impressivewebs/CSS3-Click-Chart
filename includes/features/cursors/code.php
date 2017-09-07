@@ -1,7 +1,11 @@
 .element:hover {
-    cursor: none;
+  cursor: none;
 }
 
 .element2:hover {
-    cursor: context-menu;
+  cursor: context-menu;
+}
+
+.element3:hover {
+  cursor: not-allowed;
 }

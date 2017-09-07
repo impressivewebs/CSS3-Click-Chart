@@ -1,1 +1,0 @@
-<a href="https://github.com/Schepp/box-sizing-polyfill">box-sizing Polyfill by Schepp</a><br>

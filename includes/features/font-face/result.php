@@ -1,2 +1,2 @@
-<p class="result-text">The text below embeds <a href="http://www.fontsquirrel.com/fonts/Operating-instructions">a custom font</a> using <code>@font-face</code></p>
+<p class="result-text">Below is <a href="https://www.fontsquirrel.com/fonts/alex-brush">a custom font</a> embedded using <code>@font-face</code></p>
 <div class="result-fontface">Bulletproof Web Fonts</div>

@@ -1,1 +1,0 @@
-IE9+, Firefox 1.5+, Chrome 4+, Safari  9.5+, Opera 9.5+

@@ -1,1 +1,0 @@
-<a href="http://nimbupani.com/spacing-out-on-css-namespaces.html">Spacing Out on CSS Namespaces</a><br>

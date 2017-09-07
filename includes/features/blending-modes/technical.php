@@ -1,1 +1,1 @@
-<a href="https://dvcs.w3.org/hg/FXTF/rawfile/tip/compositing/index.html">Compositing and Blending on W3C</a>
+The <a href="http://www.w3.org/TR/compositing-1/#mix-blend-mode">mix-blend-mode</a> and <a href="https://www.w3.org/TR/compositing-1/#propdef-background-blend-mode">background-blend-mode</a> properties on W3C.

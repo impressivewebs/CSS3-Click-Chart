@@ -1,1 +1,0 @@
-<p class="result-text">For a live demonstration of CSS namespaces, <a href="http://nimbupani.com/demo/namespaces/index.html">visit this link</a> in a supporting browser.</p>

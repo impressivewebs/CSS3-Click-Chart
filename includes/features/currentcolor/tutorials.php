@@ -1,1 +1,4 @@
-<a href="https://developer.mozilla.org/en/CSS/color_value#currentColor_Keyword">currentColor Keyword on MDN</a><br>
+<ul>
+  <li><a href="https://hashnode.com/post/writing-better-css-with-currentcolor-cit5mgva31co79c53ia20vetq">Writing better CSS with currentColor</a></li>
+  <li><a href="https://pineco.de/css-quick-tip-currentcolor-keyword-usage/">CSS Quick Tip: currentColor Keyword Usage</a></li>
+</ul>

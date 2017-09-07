@@ -1,1 +1,0 @@
-<a href="http://dev.w3.org/csswg/css3-3d-transforms/">3D Transforms Module on W3C</a>

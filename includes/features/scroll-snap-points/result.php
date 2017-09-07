@@ -1,0 +1,1 @@
+<p class="result-text">For a demonstration of the different scroll snap points features, <a href="https://codepen.io/SitePoint/pen/XXJPKg">view this CodePen demo</a> in a supporting browser.</p>

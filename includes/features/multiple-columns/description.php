@@ -1,1 +1,1 @@
-Allows the text in an element to be divided into colums, similar to newspaper layouts.
+Allows the content in a single element to be divided into multiple columns with a gap and rule, similar to newspaper layouts.

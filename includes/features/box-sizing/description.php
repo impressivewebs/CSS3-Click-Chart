@@ -1,1 +1,1 @@
-Allows you to change how the browser calculates the width of an element, that is, whether or not to include padding, borders, and margins, in the width or height calculation.
+Used to alter the default CSS box model for calculating width and height of the elements, which includes border and padding in its total, usually an undesirable result.

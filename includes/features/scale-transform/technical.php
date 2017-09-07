@@ -1,1 +1,0 @@
-<a href="http://dev.w3.org/csswg/css3-transforms/#transform-functions">Transform Functions on W3C</a>

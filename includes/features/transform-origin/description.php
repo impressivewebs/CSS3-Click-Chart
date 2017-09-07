@@ -1,1 +1,1 @@
-Allows you to define horizontal and vertical offsets to change the origin, or anchor point, of the transform.
+Allows you to define horizontal and vertical offsets to change the origin, or anchor point, of a CSS transform (rotate, scale, etc).

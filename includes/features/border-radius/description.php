@@ -1,1 +1,1 @@
-Applies only to <a href="http://reference.sitepoint.com/css/replacedelements">replaced elements</a>. Defines the scaling and alignment of a replaced element within its box.
+Adds rounded corners to elements using shorthand, longhand, or "slash" syntax, which lets you define different values for horizontal and vertical radii on individual corners.

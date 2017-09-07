@@ -1,0 +1,1 @@
+Enables you to define which elements can be selected by the user and how, for example to help avoid accidental selections of neighbouring content.

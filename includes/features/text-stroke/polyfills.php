@@ -1,1 +1,0 @@
-<a href="http://www.westciv.com/tools/textStroke/">Text Stroke Generator</a><br>

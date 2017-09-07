@@ -1,0 +1,1 @@
+A pseudo-element and pseudo-class to allow you to style a text input's placeholder text, or to style a text input based on whether or not the placeholder text is visible.

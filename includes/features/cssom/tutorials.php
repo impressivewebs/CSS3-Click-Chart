@@ -1,1 +1,0 @@
-<a href="http://nimbupani.com/css-object-model.html">CSS Object Model</a> (Divya Manian)<br>

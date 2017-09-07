@@ -1,1 +1,1 @@
-<a href="http://dev.w3.org/csswg/css3-color/#currentcolor">currentColor keyword on W3C</a>
+<a href="https://drafts.csswg.org/css-color-3/#currentcolor">currentColor color keyword on W3C</a>

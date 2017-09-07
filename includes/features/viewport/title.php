@@ -1,1 +1,1 @@
-Device Adaptation with @viewport
+Device Adaptation with <code>@viewport</code>

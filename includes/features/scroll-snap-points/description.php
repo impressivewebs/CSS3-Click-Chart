@@ -1,0 +1,1 @@
+Multiple features to allow you to set "snap positions" to control how an element scrolls or pans. This can improve the user experience when (for example) viewing a gallery of images.

@@ -1,1 +1,1 @@
-<a href="http://dev.w3.org/csswg/css-device-adapt/">Device Adaptation (@viewport) on W3C</a>
+<a href="https://drafts.csswg.org/css-device-adapt/">CSS Device Adaptation on W3C</a>

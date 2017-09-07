@@ -1,1 +1,1 @@
-<p class="bg-clip">This element's background is clipped at the edges of its content.</p>
+<p class="result-bgclip"><br>This element's background is clipped at the edges of its content (using <code>content-box</code>).</p>

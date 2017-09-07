@@ -1,8 +1,9 @@
 :root {
-    var-global-color: navajowhite;
+  --global-color: cadetblue;
+  --accent-color: chartreuse;
 }
 
-.element {
-    color: $global-color;
-    font-family: var($global-font, 'Helvetica, sans-serif');
+body {
+  background-color: var(--main-color);
+  color: var(--accent-color);
 }

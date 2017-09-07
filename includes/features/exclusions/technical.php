@@ -1,1 +1,1 @@
-<a href="http://dev.w3.org/csswg/css3-exclusions/">Exclusions and Shapes Module on W3C</a>
+<a href="https://drafts.csswg.org/css-exclusions-1/">CSS Exclusions Module</a>

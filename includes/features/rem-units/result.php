@@ -1,1 +1,1 @@
-<p class="result-text">For a live demonstration of CSS3 rem units, <a href="http://jsfiddle.net/pepelsbey/TDSUw/">visit this link</a> in a supporting browser.</p>
+<p class="result-text result-rem">This text is set to 1.5rem. This computes to 27px, which is one and a half times 18px (the root font size).</p>

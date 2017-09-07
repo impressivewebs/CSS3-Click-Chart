@@ -1,3 +1,4 @@
-<a href="http://fetchak.com/ie-css3/">ie-css3</a><br>
-<a href="http://border-radius.com/">CSS Border Radius Generator</a><br>
-<a href="http://css3pie.com/">CSS3 PIE</a>
+<ul>
+  <li><a href="http://border-radius.com/">CSS Border Radius Generator</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Background_and_Borders/Border-radius_generator">Border-radius generator on MDN</a></li>
+</ul>

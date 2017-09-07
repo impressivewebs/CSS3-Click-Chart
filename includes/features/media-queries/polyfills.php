@@ -1,2 +1,5 @@
-<a href="http://code.google.com/p/css3-mediaqueries-js/">css3-mediaqueries-js</a><br>
-<a href="https://github.com/scottjehl/Respondj">Respond.js</a><br>
+<ul>
+  <li><a href="http://simplecss.eu/">Simple CSS Media Queries</a></li>
+  <li><a href="http://giona.net/tools/css3-mediaquery-generator/">CSS3 mediaquery generator</a></li>
+  <li><a href="https://tools.nasqueron.org/css/media-queries-generator">Media queries generator</a></li>
+</ul>

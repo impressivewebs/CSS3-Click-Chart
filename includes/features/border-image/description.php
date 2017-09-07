@@ -1,1 +1,1 @@
-Allows a repeating or stretched image to appear on an element's border.
+Allows a repeating or stretched image to appear on an element's border in place of customary border styles.

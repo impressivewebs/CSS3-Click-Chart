@@ -1,1 +1,1 @@
-<p class="result-mediaqueries">Resize the browser window to cross the 1200px threshold and the background color of this paragraph will change.</p>
+<p class="result-mediaqueries">Resize the browser window to cross the 1200px and 480px thresholds and the background color of this paragraph will change.</p>

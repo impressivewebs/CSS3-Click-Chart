@@ -1,0 +1,1 @@
+Lets you define a "clipping path", which is a region of an element where everything on the inside of the region is visible, whereas the remainder is "clipped" out (not visible).

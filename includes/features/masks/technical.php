@@ -1,1 +1,1 @@
-* Not in the spec
+<a href="https://drafts.fxtf.org/css-masking-1/#positioned-masks">Positioned Masks on W3C</a>

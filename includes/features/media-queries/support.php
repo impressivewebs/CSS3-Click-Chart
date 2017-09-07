@@ -1,1 +1,0 @@
-<p>IE9+, Firefox 3.5+, Chrome 4+, Safari 3.1, Opera 9.5</p>

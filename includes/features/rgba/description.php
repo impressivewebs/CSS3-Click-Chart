@@ -1,1 +1,0 @@
-Allows colors to be defined via RGB along with an alpha (transparency) setting.

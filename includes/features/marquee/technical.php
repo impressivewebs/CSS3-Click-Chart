@@ -1,1 +1,0 @@
-<a href="http://www.w3.org/TR/css3-marquee/">Marquee on W3C</a>

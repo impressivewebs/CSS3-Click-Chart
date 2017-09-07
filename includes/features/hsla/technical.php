@@ -1,1 +1,0 @@
-<a href="http://dev.w3.org/csswg/css3-color/#hsl-color">HSL</a> and <a href="http://dev.w3.org/csswg/css3-color/#hsla-color">HSLA</a> color values on W3C

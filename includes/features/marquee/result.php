@@ -1,1 +1,0 @@
-<p class="result-text">For a demonstration, please visit <a href="http://codepen.io/html5web/pen/xfnEH">this page</a> in a supporting browser.</p>

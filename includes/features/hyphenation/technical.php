@@ -1,1 +1,1 @@
-<a href="http://dev.w3.org/csswg/css3-text/#hyphenation">Hyphenation on W3C</a>
+<a href="https://drafts.csswg.org/css-text-3/#hyphenation">Hyphenation on W3C</a>

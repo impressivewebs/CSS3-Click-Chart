@@ -1,1 +1,3 @@
-<a href="http://mcc.id.au/blog/2012/08/supports">Support for @supports in Firefox Nightly</a><br>
+<ul>
+  <li><a href="https://hacks.mozilla.org/2016/08/using-feature-queries-in-css/">Using Feature Queries in CSS</a></li>
+</ul>

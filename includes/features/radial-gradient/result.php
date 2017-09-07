@@ -1,1 +1,0 @@
-<p class="result-radial">This paragraph has a radial gradient<br>set as the background.</p>

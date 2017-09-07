@@ -1,0 +1,1 @@
+<a href="https://drafts.csswg.org/css-images-3/#the-image-orientation">Orienting an Image on the Page on W3C</a>

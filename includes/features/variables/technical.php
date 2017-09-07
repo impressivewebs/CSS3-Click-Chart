@@ -1,1 +1,1 @@
-<a href="http://dev.w3.org/csswg/css-variables/">CSS Variables on W3C</a>
+<a href="https://drafts.csswg.org/css-variables/">CSS Custom Properties for Cascading Variables on W3C</a>

@@ -1,9 +1,9 @@
 ::selection {
-    background: #50bc6b; /* WebKit, Opera, & IE9 */
-    color: white;
+  background: purple;
+  color: hotpink;
 }
 
 ::-moz-selection {
-    background: #50bc6b; /* Firefox */
-    color: white;
+  background: purple;
+  color: hotpink;
 }
