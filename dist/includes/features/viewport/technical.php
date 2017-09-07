@@ -1,0 +1,1 @@
+<a href="https://drafts.csswg.org/css-device-adapt/">CSS Device Adaptation on W3C</a>

@@ -1,0 +1,1 @@
+Includes different features that allow you to add Photoshop-like effects to elements (hue, grayscale, sepia, blur, invert, saturate, etc.) using pure CSS.

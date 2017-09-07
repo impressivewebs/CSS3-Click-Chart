@@ -393,7 +393,7 @@ var s = null,
     },
 
     doAdLoad: function () {
-      //$('#ap').attr('src', $('#ap').attr('src'));
+      document.getElementById('ap').setAttribute('src', document.getElementById('ap').getAttribute('src'));
     }
 
   };

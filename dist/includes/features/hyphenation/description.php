@@ -1,0 +1,1 @@
+Allows you to tell the browser whether to hyphenate words at line breaks, or to just break the entire word onto the next line.

@@ -1,0 +1,2 @@
+<p class="result-text">For a live demonstration:<br>
+<a href="http://trac.webkit.org/browser/trunk/LayoutTests/fast/canvas/canvas-bg.html?format=raw">go here for WebKit</a> or<br><a href="https://developer.mozilla.org/samples/cssref/moz-element.html">go here for Firefox</a>.

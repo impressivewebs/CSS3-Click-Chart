@@ -1,0 +1,1 @@
+Lets you define the behavior of a scrolling element (instant scrolling or smooth transition) when scrolling is via navigation or a scrolling API. User scrolling is not affected.

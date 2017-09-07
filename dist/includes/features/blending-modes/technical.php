@@ -1,0 +1,1 @@
+The <a href="http://www.w3.org/TR/compositing-1/#mix-blend-mode">mix-blend-mode</a> and <a href="https://www.w3.org/TR/compositing-1/#propdef-background-blend-mode">background-blend-mode</a> properties on W3C.

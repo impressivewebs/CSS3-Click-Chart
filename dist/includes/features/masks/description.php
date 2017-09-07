@@ -1,0 +1,1 @@
+Allows you to use a graphical element or image as a luminance or alpha mask to hide portions of elements.

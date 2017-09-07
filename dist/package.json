@@ -1,0 +1,30 @@
+{
+  "name": "css3clickchart.com",
+  "version": "1.0.0",
+  "description": "New CSS Features and Resources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/impressivewebs/CSS3-Click-Chart.git"
+  },
+  "author": "Louis Lazaris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/impressivewebs/CSS3-Click-Chart/issues"
+  },
+  "homepage": "https://github.com/impressivewebs/CSS3-Click-Chart#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "run-sequence": "^2.1.0"
+  },
+  "dependencies": {
+    "gulp-cssnano": "^2.1.2"
+  }
+}

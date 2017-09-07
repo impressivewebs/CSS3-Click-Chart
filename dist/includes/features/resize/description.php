@@ -1,0 +1,1 @@
+Allows an element to be resized by the user vertically and/or horizontally using a visible handle. Applies to elements that have <code>overflow</code> set to something other than <code>visible</code>. Also applies to some replaced elements.

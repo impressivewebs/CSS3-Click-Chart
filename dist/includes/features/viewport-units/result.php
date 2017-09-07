@@ -1,0 +1,1 @@
+<p class="result-text">For a live demonstration of viewport units in action, <a href="https://codepen.io/SitePoint/pen/gmdRYx">see this CodePen demo</a>.</p>

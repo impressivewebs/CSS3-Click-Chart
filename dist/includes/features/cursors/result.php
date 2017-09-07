@@ -1,0 +1,20 @@
+<div class="cursor-contain">
+	<div class="cbox cursor-none">None</div>
+	<div class="cbox cursor-cm">context-menu</div>
+	<div class="cbox cursor-cell">cell</div>
+	<div class="cbox cursor-vt">vertical-text</div>
+	<div class="cbox cursor-alias">alias</div>
+	<div class="cbox cursor-copy">copy</div>
+	<div class="cbox cursor-nd">no-drop</div>
+	<div class="cbox cursor-na">not-allowed</div>
+	<div class="cbox cursor-cr">col-resize</div>
+	<div class="cbox cursor-rr">row-resize</div>
+	<div class="cbox cursor-as">all-scroll</div>
+	<div class="cbox cursor-zi">zoom-in</div>
+	<div class="cbox cursor-zo">zoom-out</div>
+	<div class="cbox cursor-scroll">all-scroll</div>
+	<div class="cbox cursor-nesw">nesw-resize</div>
+	<div class="cbox cursor-nwse">nwse-resize</div>
+	<div class="cbox cursor-ew">ew-resize</div>
+	<div class="cbox cursor-ns">ns-resize</div>
+</div><!-- .cursor-contain -->

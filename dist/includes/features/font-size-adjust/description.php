@@ -1,0 +1,1 @@
+Allows you to define font size based on the height of lowercase letters instead of uppercase letters. This is helpful for readability and reflows when a fallback font loads and has a large difference in "aspect value" from the primary font.

@@ -1,0 +1,1 @@
+Additional values for the <code>cursor</code> property, including <code>none</code>, <code>context-menu</code>, <code>col-resize</code>, and more.

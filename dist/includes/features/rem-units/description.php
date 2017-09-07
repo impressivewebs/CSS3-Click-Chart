@@ -1,0 +1,1 @@
+Allows you to define values relative to the root element (usually the <code>&lt;html&gt;</code> element), rather than being relative to the inherited font size (like em units).

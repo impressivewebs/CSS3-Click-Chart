@@ -1,0 +1,1 @@
+Allows the creation of a linear or radial gradients (images that fade smoothly from color to color), using special functions included where you would normally place an image URL.

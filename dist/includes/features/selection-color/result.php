@@ -1,0 +1,1 @@
+<p class="result-selection">Select the text in this paragraph. The background color and text color will change to purple and hotpink for the selected area.</p>

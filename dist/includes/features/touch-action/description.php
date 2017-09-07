@@ -1,0 +1,1 @@
+Allows you to determine whether, and by what means, a given area on the page can be manipulated via a touchscreen.

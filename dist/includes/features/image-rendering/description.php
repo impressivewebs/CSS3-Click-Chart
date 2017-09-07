@@ -1,0 +1,1 @@
+Provides a hint to the browser about what aspects of an image are most important to preserve when the image is scaled, to help the browser optimize its scaling algorithm.

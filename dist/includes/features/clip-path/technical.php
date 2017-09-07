@@ -1,0 +1,1 @@
+<a href="https://drafts.fxtf.org/css-masking-1/#the-clip-path">Clipping Shape: the clip-path property on W3C</a>

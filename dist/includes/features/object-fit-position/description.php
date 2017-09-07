@@ -1,0 +1,1 @@
+Applies only to <a href="https://www.sitepoint.com/replaced-elements-html-myths-realities/">replaced elements</a> (images, videos, etc). Allows you to define the scaling and position of a replaced element within its rendered box.

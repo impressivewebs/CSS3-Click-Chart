@@ -1,0 +1,2 @@
+<p class="result-text">Below is <a href="https://www.fontsquirrel.com/fonts/alex-brush">a custom font</a> embedded using <code>@font-face</code></p>
+<div class="result-fontface">Bulletproof Web Fonts</div>

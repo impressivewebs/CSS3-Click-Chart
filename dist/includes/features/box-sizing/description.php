@@ -1,0 +1,1 @@
+Used to alter the default CSS box model for calculating width and height of the elements, which includes border and padding in its total, usually an undesirable result.

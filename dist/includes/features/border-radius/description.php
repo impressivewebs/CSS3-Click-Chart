@@ -1,0 +1,1 @@
+Adds rounded corners to elements using shorthand, longhand, or "slash" syntax, which lets you define different values for horizontal and vertical radii on individual corners.

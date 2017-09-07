@@ -133,7 +133,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
   </div><!-- .infoboxes -->
 
-  <!--<iframe class="ap" id="ap" src="includes/bsa.php" scrolling="no"></iframe><!-- .ap -->
+  <iframe class="ap" id="ap" src="includes/bsa.php" scrolling="no"></iframe><!-- .ap -->
 
   <footer>
 

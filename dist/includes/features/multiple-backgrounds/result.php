@@ -1,0 +1,1 @@
+<p class="result-multibg">This element has two background images.</p>

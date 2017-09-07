@@ -1,0 +1,1 @@
+New text decoration features, including the <code>text-decoration</code> property as a shorthand, adding various new longhand properties to manipulate underlines, overlines, etc.

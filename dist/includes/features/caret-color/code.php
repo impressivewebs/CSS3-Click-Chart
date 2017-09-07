@@ -1,0 +1,3 @@
+textarea {
+  caret-color: hotpink;
+}

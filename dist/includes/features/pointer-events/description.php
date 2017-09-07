@@ -1,0 +1,1 @@
+Allows control over the circumstances under which elements can be the target of mouse events.

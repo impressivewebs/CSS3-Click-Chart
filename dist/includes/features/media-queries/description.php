@@ -1,0 +1,1 @@
+Lets you serve different styles to a browser depending on various media types (print, screen, etc) and media conditions (screen size, portrait, landscape, etc.).

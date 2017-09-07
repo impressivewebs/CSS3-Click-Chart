@@ -1,0 +1,3 @@
+.element {
+  opacity: .4;
+}

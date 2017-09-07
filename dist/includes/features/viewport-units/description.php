@@ -1,0 +1,1 @@
+Allows you to define lengths using percentage-based values relative to the width or height of the viewport (visible area of the page).

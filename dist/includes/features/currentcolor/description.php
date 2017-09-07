@@ -1,0 +1,1 @@
+A keyword value that allows an element to inherit the current computed color value rather than explicitly declaring a color.

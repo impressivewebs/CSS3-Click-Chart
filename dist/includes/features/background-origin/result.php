@@ -1,0 +1,1 @@
+<p class="result-bgorigin">This element's background originates in the content area.</p>
