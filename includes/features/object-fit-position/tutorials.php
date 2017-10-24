@@ -1,2 +1,0 @@
-<a href="http://dev.opera.com/articles/view/css3-object-fit-object-position/">The CSS3 object-fit and object-position properties</a><br>
-<a href="http://www.netmagazine.com/tutorials/control-image-aspect-ratios-css3">Control image aspect ratios with CSS3</a><br>

@@ -1,1 +1,0 @@
-Allows an image drawn via the Canvas API to be inserted as a background image value in your stylesheet.

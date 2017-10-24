@@ -17,9 +17,13 @@
   },
   "homepage": "https://github.com/impressivewebs/CSS3-Click-Chart#readme",
   "devDependencies": {
+    "critical": "^0.9.1",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-cache-bust": "^1.1.0",
     "gulp-if": "^2.0.2",
     "gulp-imagemin": "^3.3.0",
+    "gulp-rename": "^1.2.2",
     "gulp-uglify": "^3.0.0",
     "gulp-useref": "^3.1.2",
     "run-sequence": "^2.1.0"

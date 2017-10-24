@@ -1,1 +1,0 @@
-<p class="result-text">For a live demonstration of CSS3 exclusions, <a href="http://samples.msdn.microsoft.com/Workshop/samples/ie10devguide/exclusion.html">visit this link</a> in a supporting browser.</p>

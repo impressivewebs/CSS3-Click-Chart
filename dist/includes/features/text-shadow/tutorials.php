@@ -1,1 +1,0 @@
-<a href="http://pgwebdesign.net/blog/3d-css-shadow-text-tutorial">3D CSS Shadow Text Tutorial</a><br>

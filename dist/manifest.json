@@ -1,0 +1,15 @@
+{
+  "name": "CSS Click Chart",
+  "short_name": "Click Chart",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#481700",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "200x200",
+      "type": "image/png"
+    }
+  ]
+}

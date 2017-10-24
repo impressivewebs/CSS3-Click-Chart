@@ -1,1 +1,0 @@
-<a href="http://www.impressivewebs.com/css3-resize/">The CSS3 Resize Property</a><br>
