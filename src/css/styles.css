@@ -457,6 +457,7 @@ template {
        url('../fonts/bevan.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 html {
@@ -636,7 +637,7 @@ header {
 
 .hidden {
   opacity: 0;
-  transition: opacity .5s;
+  transition: opacity 0s;
   position: absolute;
   z-index: -1;
 }
@@ -975,6 +976,7 @@ pre.code {
          url('../fonts/alexbrush.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
   }
 
   .result-fontface {

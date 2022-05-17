@@ -110,6 +110,6 @@ gulp.task('critical', function (callback) {
 // type 'gulp default' or just 'gulp' to run all the above
 // tasks using the runSequence plugin executed below
 gulp.task('default', function(callback) {
-  runSequence('cleanstructure', 'copystructure', 'useref', 'useref2', 'useref3', 'copycss', 'copyjs', 'images', 'images2', 'fonts', 'cache-bust', 'cache-bust2', 'cache-bust3', 'critical', callback);
+  runSequence('cleanstructure', 'copystructure', 'useref', 'useref2', 'useref3', 'copycss', 'copyjs', 'images', 'images2', 'fonts', 'cache-bust', 'cache-bust2', 'cache-bust3', callback);
   //runSequence('cleanstructure', callback);
 });

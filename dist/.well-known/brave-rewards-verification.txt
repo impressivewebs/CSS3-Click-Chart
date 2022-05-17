@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: css3clickchart.com
+Token: 368b36ebf6a623a926f240cd42e94608b3e1d61a79dd411eff66e7066b585f48

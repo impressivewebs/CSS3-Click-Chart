@@ -41,44 +41,47 @@ var s = null,
       s = this.settings;
 
       document.documentElement.className += ' js';
-
-      if (document.location.toString().split('?view=')[1] === 'common') {
-        document.location = document.location.toString().split('?view=')[0] + '#box-sizing';
-      }
-
-      if (document.location.toString().split('?view=')[1] === 'edge') {
-        document.location = document.location.toString().split('?view=')[0] + '#calc';
-      }
-
-      s.currView = document.location.toString();
-      s.currView = s.currView.split('?prop=');
-
-      if (s.currView[1]) {
-        document.location = s.currView[0] + "#" + s.currView[1];
-      } else {
-        if (!location.hash) {
-          document.location = s.currView[0] + "#box-sizing";
-        }
-      }
-
       s.edgeList.classList.add('hidden');
+
+      if (location.hash) {
+        history.pushState(null, null, document.location.toString().split('#')[0] + '?prop=' + location.hash.replace('#', ''));
+      }
+
+      // if (document.location.toString().split('?view=')[1] === 'common') {
+      //   document.location = document.location.toString().split('?view=')[0] + '?prop=box-sizing';
+      // }
+
+      // if (document.location.toString().split('?view=')[1] === 'edge') {
+      //   document.location = document.location.toString().split('?view=')[0] + '?prop=resize';
+      // }
+
+      // s.currView = document.location.toString();
+      // s.currView = s.currView.split('?prop=')[1];
+
+      // if (!s.currView) {
+      //   history.replaceState(null, null, '?prop=box-sizing');
+      //   s.edgeList.classList.add('hidden');
+      // } else {
+      //   s.edgeList.classList.remove('hidden');
+      //   s.edgeList.classList.add('hidden');
+      // }
+
+      // if (s.currView[1]) {
+      //   document.location = s.currView[0] + "?prop=" + s.currView[1];
+      // } else {
+      //   history.pushState(null, null, '?prop=box-sizing');
+      // }
 
       this.doViewNav();
       this.doPropLinks();
-
-      if (location.hash) {
-        if (location.hash.toString().indexOf('##') > -1) {
-          document.location = '#box-sizing';
-        } else {
-          this.doHash();
-        }
-      }
+      this.doHash();
 
       this.doDynamicButtons();
 
-      window.addEventListener('hashchange', function () {
+      window.addEventListener('popstate', function () {
         Css3clickchart.doHash();
         Css3clickchart.doDeepLink();
+        Css3clickchart.doAdLoad();
       });
 
       this.doDeepLink();
@@ -95,8 +98,10 @@ var s = null,
           document.querySelector('.viewnav a.selected').classList.remove('selected');
           this.classList.add('selected');
 
-          s.viewLink = this.href.split('?view=');
+          s.viewLink = this.parentNode.className.split('btn');
           Css3clickchart.doView(s.viewLink[1]);
+          Css3clickchart.doHash();
+          Css3clickchart.doDeepLink();
           Css3clickchart.doAdLoad();
 
           e.preventDefault();
@@ -115,9 +120,11 @@ var s = null,
           this.classList.add('selected');
 
           s.featureURL = this.href.split('?prop=');
-          location.hash = s.featureURL[1];
+
+          history.pushState(null, null, '?prop=' + s.featureURL[1]);
 
           Css3clickchart.doAdLoad();
+          Css3clickchart.doHash();
 
           e.preventDefault();
 
@@ -171,11 +178,11 @@ var s = null,
 
     doHash: function () {
 
-      if (location.hash.toString().indexOf('##') > -1) {
-        document.location = location.hash.toString().replace(/#+/, '#');
-      }
+      // if (location.hash.toString().indexOf('##') > -1) {
+      //   history.pushState(null, null, location.hash.toString().replace(/#+/, ''));
+      // }
 
-      s.featureURL = location.hash.replace('#', '');
+      s.featureURL = document.location.toString().split('?prop=')[1] || 'box-sizing';
       s.body.classList.add('loading');
 
       if (window._gaq) {
@@ -209,7 +216,7 @@ var s = null,
       });
 
       s.body.classList.remove('loading');
-      s.featureURL = s.featureURL.replace('-', ' ');
+      //s.featureURL = s.featureURL.replace('-', ' ');
     },
 
     doView: function (view) {
@@ -219,32 +226,41 @@ var s = null,
         s.btnCommon.classList.add('selected');
         s.edgeList.classList.add('hidden');
         s.btnEdge.classList.remove('selected');
-        document.location = '#box-sizing';
+        history.pushState(null, null, '?prop=box-sizing');
+        Css3clickchart.doHash();
       } else {
         s.edgeList.classList.remove('hidden');
         s.btnEdge.classList.add('selected');
         s.commonList.classList.add('hidden');
         s.btnCommon.classList.remove('selected');
-        document.location = '#resize';
+        history.pushState(null, null, '?prop=resize');
+        Css3clickchart.doHash();
       }
 
     },
 
     doDeepLink: function () {
 
+      s.featureURL = document.location.toString().split('?prop=')[1] || 'box-sizing';
+
       if (document.querySelector('.featureslist .selected')) {
         document.querySelector('.featureslist .selected').classList.remove('selected');
       }
 
-      if (document.querySelector('#commonlist a[href$="' + location.hash.replace('#', '') + '"]')) {
-        document.querySelector('#commonlist a[href$="' + location.hash.replace('#', '') + '"]').classList.add('selected');
+      if (document.querySelector('#commonlist a[href$="' + s.featureURL + '"]')) {
+        document.querySelector('#commonlist a[href$="' + s.featureURL + '"]').classList.add('selected');
+      } else {
+        if (document.querySelector('#edgelist a[href$="' + s.featureURL + '"]')) {
+          document.querySelector('#edgelist a[href$="' + s.featureURL + '"]').classList.add('selected');
+        } else {
+          history.pushState(null, null, '?prop=box-sizing');
+          this.doHash();
+          this.doDeepLink();
+        }
+
       }
 
-      if (document.querySelector('#edgelist a[href$="' + location.hash.replace('#', '') + '"]')) {
-        document.querySelector('#edgelist a[href$="' + location.hash.replace('#', '') + '"]').classList.add('selected');
-      }
-
-      this.doFindMenu(location.hash.replace('#', ''));
+      this.doFindMenu(s.featureURL);
 
     },
 

@@ -1,7 +1,6 @@
 <?php
-if (isset($_GET["prop"])) {
-  $prop = $_GET["prop"];
-  //var_dump($prop);
+if (isset($_REQUEST["prop"])) {
+  $prop = $_REQUEST["prop"];
 } else {
   $prop = "feature-default";
 }
@@ -18,8 +17,6 @@ $proptitlestr = str_replace("feature-", "", $prop);
   <title>CSS Click Chart | CSS3 Browser Support and Information</title>
   <meta name="description" content="CSS3 Click Chart">
   <meta name="author" content="Louis Lazaris">
-
-  <meta name="monetization" content="$ilp.uphold.com/K2Xp98WeRgUn">
 
   <!-- Remove these two references once the files are in root with these file names -->
   <link rel="shortcut icon" href="/favicon.ico">
@@ -55,8 +52,8 @@ $proptitlestr = str_replace("feature-", "", $prop);
       <h1><a href="http://css3clickchart.com" class="title-link">CSS Click Chart</a></h1>
 
       <ul class="viewnav clearfix">
-        <li class="btncommon"><a href="#" class="selected">common stuff</a></li>
-        <li class="btnedge"><a href="#">cutting-edge</a></li>
+        <li class="btncommon"><a href="?view=common" class="selected">common stuff</a></li>
+        <li class="btnedge"><a href="?view=edge">cutting-edge</a></li>
       </ul>
 
     </div><!-- .header-inside -->
@@ -133,7 +130,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
   </div><!-- .infoboxes -->
 
-  <iframe class="ap" id="ap" src="includes/bsa.html" scrolling="no" title="Ads by Carbon"></iframe> <!-- .ap -->
+  <iframe class="ap" id="ap" src="includes/bsa.html" scrolling="no" title="Ads by Carbon"></iframe><!-- .ap -->
 
   <footer>
 

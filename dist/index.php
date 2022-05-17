@@ -1,6 +1,7 @@
 <?php
 if (isset($_GET["prop"])) {
   $prop = $_GET["prop"];
+  //var_dump($prop);
 } else {
   $prop = "feature-default";
 }
@@ -18,6 +19,8 @@ $proptitlestr = str_replace("feature-", "", $prop);
   <meta name="description" content="CSS3 Click Chart">
   <meta name="author" content="Louis Lazaris">
 
+  <meta name="monetization" content="$ilp.uphold.com/K2Xp98WeRgUn">
+
   <!-- Remove these two references once the files are in root with these file names -->
   <link rel="shortcut icon" href="/favicon.ico">
 
@@ -25,12 +28,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-  <style type="text/css">
-    html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}header{display:block}h1{font-size:2em;margin:.67em 0}a{background-color:transparent;-webkit-text-decoration-skip:objects}textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}textarea{overflow:auto}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}@font-face{font-family:BevanRegular;src:url(../fonts/bevan.woff2) format("woff2"),url(../fonts/bevan.woff) format("woff");font-weight:400;font-style:normal}html{font-size:18px}body{background:#481700;color:#fff;font-family:Verdana,Helvetica,sans-serif;padding:26px 0}ul{padding-left:22px;margin-top:0}ul li{line-height:1.2;margin-bottom:8px}a:link,a:visited{color:#fff}a.title-link:link,a.title-link:visited{color:#d78965;text-decoration:none}h1,h2{font-family:BevanRegular,serif;color:#d78965;font-weight:400;margin:0;padding:0;line-height:1}.ed h2{float:left}p{margin:0 0 24px;line-height:1.2}header{background:#51220d}h1{font-family:BevanRegular,serif;color:#d78965;font-size:60px;line-height:84px;float:left}.viewnav{list-style:none;margin:20px 0 0;padding:0;float:right;display:none}.viewnav li{width:180px;height:40px;float:left;margin:0 42px 0 0}.viewnav li.btnedge{margin-right:0}.viewnav li a:link,.viewnav li a:visited{display:block;height:40px;text-align:center;line-height:38px;border-radius:10px;text-decoration:none;color:#e2e2e2;opacity:.75;background:#bb4c1a;background:linear-gradient(#bb4c1a,#bb4c1a 45%,#ac3600 55%,#ac3600);box-shadow:inset 0 0 10px #000}.viewnav li a.selected:link,.viewnav li a.selected:visited{opacity:1}.globalwidth{width:1080px;margin:0 auto;padding-left:20px;padding-right:20px;clear:both}.globalwidth:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}.propsnav{padding-bottom:40px}.featureslist{margin:0;padding:20px 0 0}.featureslist li{list-style:none;font-family:consolas,monospace;font-size:20px;width:192px;margin-bottom:0}.featureslist a:link,.featureslist a:visited{text-decoration:none;line-height:28px;padding:1px 10px;border-radius:8px;white-space:nowrap}.featureslist .colb{margin-left:194px;width:280px}.featureslist li.colf{margin-top:-168px}.featureslist .colc{width:172px;margin-left:476px}.featureslist .cold{width:210px;margin-left:650px}.featureslist .cole{width:225px;margin-left:880px}.featureslist .colg{width:174px}.featureslist .coll{margin-top:-168px}.featureslist .colh{width:234px;margin-left:176px}.featureslist .coli{width:223px;margin-left:425px}.featureslist .colj{width:178px;margin-left:650px}.featureslist .colk{width:250px;margin-left:830px}.ap{position:absolute;top:320px;right:0;width:270px;overflow:hidden;border:none;padding-bottom:3px}.code{width:1066px;height:110px;background:#d3c8c2;padding:14px 0 14px 14px;font-family:consolas,monospace;white-space:pre;overflow-y:scroll;color:#000;clear:both}.desc{padding-bottom:20px;overflow:hidden;float:left;width:580px;padding-right:40px}.ed{padding-top:30px;padding-bottom:40px;position:relative}.spec{float:left;width:440px}.result{background:#561d01;min-height:200px;position:relative;border:1px solid transparent}.support{font-size:16px}.demo-left{float:left;width:510px}.demo-right{float:left;width:520px;padding:0 0 0 50px}.support-heading{position:relative}h2{font-size:30px;margin:0 0 10px}@media (max-width:1550px){.spec{width:350px}}@media (max-width:1385px){.spec{width:210px}}@media (max-width:1150px){.globalwidth{width:auto}.viewnav{float:left;padding-left:30px}.viewnav li{margin-right:22px}.featureslist li.colb{margin-left:160px}.featureslist li.colc{margin-left:410px}.featureslist li.cold{margin-left:560px}.featureslist li.cole{margin-left:770px}.featureslist li.colh{margin-left:134px}.featureslist li.coli{margin-left:330px}.featureslist li.colj{margin-left:520px}.featureslist li.colk{margin-left:674px}.desc{width:480px}.code{width:98%}.demo-left{padding-bottom:25px}.demo-right{width:400px}.demo-right h2{white-space:nowrap}}@media (max-width:1040px){.viewnav{float:right;padding-left:0}.featureslist li.colb,.featureslist li.colc,.featureslist li.cold,.featureslist li.cole{width:auto}.featureslist li.colb{margin-left:155px}.featureslist li.colc{margin-left:400px}.featureslist li.cold{margin-left:540px}.featureslist li.cole{margin-left:744px}.desc{width:440px;padding-right:20px}.viewnav li{margin-right:12px}.demo-right{width:340px}h2{font-size:26px}}@media (max-width:970px){.featureslist li{font-size:20px}.viewnav{clear:left;float:none}header{padding-bottom:15px}.featureslist li.colb{margin-left:220px}.featureslist li.colc{margin-left:480px}.featureslist li.cold{margin-left:0;margin-top:0}.featureslist li.cole{margin-left:220px}.featureslist li.colh{margin-left:164px}.featureslist li.coli{margin-left:420px}.featureslist li.colj{margin-left:0;margin-top:0}.featureslist li.colk{margin-left:164px}.fledge{padding-bottom:40px}.demo-left,.demo-right{width:auto;padding:0;clear:both;float:none}.demo-right{padding-top:30px}.ap{top:370px}}@media (max-width:725px){h1{font-size:41px;line-height:60px}.propsnav{padding-bottom:30px}.desc{max-width:100%;padding-right:20px;word-wrap:break-word}.featureslist li.colb,.featureslist li.colc,.featureslist li.cold,.featureslist li.cole,.featureslist li.colf,.featureslist li.colg,.featureslist li.colh,.featureslist li.coli,.featureslist li.colk{margin-left:0;margin-top:0}}@media (max-width:520px){.ap{margin-left:20px;margin-top:-20px;margin-bottom:45px}.ap{position:static}}@media (max-width:480px){.globalwidth{padding-left:14px}h1{font-size:32px;line-height:1.2;margin-bottom:7px}.viewnav li{width:140px;height:31px;font-size:15px;float:none}.viewnav li.btncommon{margin-bottom:12px}.viewnav li a{height:31px}.featureslist li{font-size:18px}.demo-left div{width:auto}.demo-right h2{white-space:normal}.featureslist li.colk{width:200px}}@media (max-width:480px) and (orientation:landscape){h1{font-size:41px}.viewnav{width:380px;height:40px}.viewnav li{width:180px;height:40px;font-size:18px}.viewnav li a{height:40px}}
-  </style>
-  <link rel="preload" href="css/styles.min.css?t=1505782709943" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="css/styles.min.css?t=1505782709943"></noscript>
-  <script>!function(e){"use strict";var t=function(t,n,r){function o(e){if(i.body)return e();setTimeout(function(){o(e)})}function a(){d.addEventListener&&d.removeEventListener("load",a),d.media=r||"all"}var l,i=e.document,d=i.createElement("link");if(n)l=n;else{var s=(i.body||i.getElementsByTagName("head")[0]).childNodes;l=s[s.length-1]}var u=i.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",o(function(){l.parentNode.insertBefore(d,n?l:l.nextSibling)});var f=function(e){for(var t=d.href,n=u.length;n--;)if(u[n].href===t)return e();setTimeout(function(){f(e)})};return d.addEventListener&&d.addEventListener("load",a),d.onloadcssdefined=f,f(a),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(e){if(e.loadCSS){var t=loadCSS.relpreload={};if(t.support=function(){try{return e.document.createElement("link").relList.supports("preload")}catch(e){return!1}},t.poly=function(){for(var t=e.document.getElementsByTagName("link"),n=0;n<t.length;n++){var r=t[n];"preload"===r.rel&&"style"===r.getAttribute("as")&&(e.loadCSS(r.href,r,r.getAttribute("media")),r.rel=null)}},!t.support()){t.poly();var n=e.setInterval(t.poly,300);e.addEventListener&&e.addEventListener("load",function(){t.poly(),e.clearInterval(n)}),e.attachEvent&&e.attachEvent("onload",function(){e.clearInterval(n)})}}}(this);</script>
+  <link rel="stylesheet" href="css/styles.min.css?t=1516749950828">
 
   <script type="text/javascript">
     function recordOutboundLink(link, category, action) {
@@ -42,7 +40,7 @@ $proptitlestr = str_replace("feature-", "", $prop);
     }
   </script>
 
-  <link rel="manifest" href="manifest.json">
+  <!--<link rel="manifest" href="manifest.json">-->
 
 </head>
 
@@ -55,8 +53,8 @@ $proptitlestr = str_replace("feature-", "", $prop);
       <h1><a href="http://css3clickchart.com" class="title-link">CSS Click Chart</a></h1>
 
       <ul class="viewnav clearfix">
-        <li class="btncommon"><a href="?view=common" class="selected">common stuff</a></li>
-        <li class="btnedge"><a href="?view=edge">cutting-edge</a></li>
+        <li class="btncommon"><a href="#" class="selected">common stuff</a></li>
+        <li class="btnedge"><a href="#">cutting-edge</a></li>
       </ul>
 
     </div><!-- .header-inside -->
@@ -133,19 +131,19 @@ $proptitlestr = str_replace("feature-", "", $prop);
 
   </div><!-- .infoboxes -->
 
-  <iframe class="ap" id="ap" src="includes/bsa.html" scrolling="no" title="Ads by Carbon"></iframe><!-- .ap -->
+  <iframe class="ap" id="ap" src="includes/bsa.html" scrolling="no" title="Ads by Carbon"></iframe> <!-- .ap -->
 
   <footer>
 
     <div class="globalwidth">
       <p>If you have any corrections or suggestions, open an issue <a href="https://github.com/impressivewebs/CSS3-Click-Chart">on the GitHub page</a></p>
 
-      <p class="cr">Copyright &copy; 2011 - <?= Date('Y'); ?> by <a href="https://www.impressivewebs.com">Louis Lazaris</a> | <a href="https://twitter.com/ImpressiveWebs">Follow me on Twitter</a> | See also: <a href="https://cssvalues.com">CSS Values</a></p>
+      <p class="cr">Copyright &copy; 2011 - <?php echo Date('Y'); ?> by <a href="https://www.impressivewebs.com">Louis Lazaris</a> | <a href="https://twitter.com/ImpressiveWebs">Follow me on Twitter</a> | See also: <a href="https://cssvalues.com">CSS Values</a></p>
     </div><!-- .footer-inside -->
 
   </footer>
 
-<script src="js/general.min.js?t=1505782709943"></script>
+<script src="js/general.min.js?t=1516749950828"></script>
 
 <script>
   var _gaq = [['_setAccount', 'UA-1965499-10'], ['_trackPageview']];

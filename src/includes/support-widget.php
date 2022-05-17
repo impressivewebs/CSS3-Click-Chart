@@ -275,6 +275,6 @@ switch ($proptitlestr) {
     break;
 }
 ?>
-<p class="ciu_embed" data-feature="<?= $sf; ?>" data-periods="future_1,current,past_1,past_2">
-  <a href="http://caniuse.com/#feat=<?= $sf; ?>">Can I Use <?= $sf; ?>?</a> Data on support for the <?= $proptitlestr; ?> feature across the major browsers from caniuse.com.
+<p class="ciu_embed" data-feature="<?php echo  $sf; ?>" data-periods="future_1,current,past_1,past_2">
+  <a href="http://caniuse.com/#feat=<?php echo  $sf; ?>">Can I Use <?php echo  $sf; ?>?</a> Data on support for the <?php echo  $proptitlestr; ?> feature across the major browsers from caniuse.com.
 </p>
