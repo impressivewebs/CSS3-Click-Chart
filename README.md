@@ -1,4 +1,4 @@
-# [CSS Click Chart](https://css3clickchart.com)
+# [CSS Click Chart](https://louislazaris.com/tools/css3clickchart)
 
 Code examples, descriptions, links, tutorials, polyfills, tools, and browser support info for new CSS features.
 
